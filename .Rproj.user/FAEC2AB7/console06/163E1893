@@ -1,66 +1,0 @@
-]0;~/Dropbox/dydaktyka/mbp[?1034hkb-mbp:mbp kbas$ [Kkb-mbp:mbp kbas$ git init
-Initialized empty Git repository in /Users/kbas/Dropbox/dydaktyka/mbp/.git/
-]0;~/Dropbox/dydaktyka/mbpkb-mbp:mbp kbas$ gfit[K[K[Kit add .
-g]0;~/Dropbox/dydaktyka/mbpkb-mbp:mbp kbas$ git commit =-[K[Kinit[K[K[K[K-m "initial"
-[master (root-commit) 5562d6f] initial
- 37 files changed, 8021 insertions(+)
- create mode 100644 .Rproj.user/FAEC2AB7/console06/163E1893
- create mode 100644 .Rproj.user/FAEC2AB7/console06/INDEX001
- create mode 100644 .Rproj.user/FAEC2AB7/sources/prop/97E42529
- create mode 100644 .Rproj.user/FAEC2AB7/sources/prop/A2F8AA00
- create mode 100644 .Rproj.user/FAEC2AB7/sources/prop/B089D148
- create mode 100644 .Rproj.user/FAEC2AB7/sources/prop/E70FABC2
- create mode 100644 .Rproj.user/FAEC2AB7/sources/prop/INDEX
- create mode 100644 .Rproj.user/FAEC2AB7/sources/s-2EE34F29/3ACD1971
- create mode 100644 .Rproj.user/FAEC2AB7/sources/s-2EE34F29/3ACD1971-contents
- create mode 100644 .Rproj.user/FAEC2AB7/sources/s-2EE34F29/8ACC0350
- create mode 100644 .Rproj.user/FAEC2AB7/sources/s-2EE34F29/8ACC0350-contents
- create mode 100644 .Rproj.user/FAEC2AB7/sources/s-2EE34F29/B1A34B5E-contents
- create mode 100644 .Rproj.user/FAEC2AB7/sources/s-2EE34F29/C349F6B4
- create mode 100644 .Rproj.user/FAEC2AB7/sources/s-2EE34F29/C349F6B4-contents
- create mode 100644 .Rproj.user/FAEC2AB7/sources/s-2EE34F29/E224B6D7-contents
- create mode 100644 .Rproj.user/FAEC2AB7/sources/s-2EE34F29/lock_file
- create mode 100644 .Rproj.user/shared/notebooks/6AABB9D3-w01_intro/1/FAEC2AB72EE34F29/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/6AABB9D3-w01_intro/1/s/chunks.json
- create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
- create mode 100644 .Rproj.user/shared/notebooks/paths
- create mode 100644 README.md
- create mode 100644 img/z01apa.png
- create mode 100644 img/z01brzezinski.png
- create mode 100644 img/z01darwin.png
- create mode 100644 img/z01einstein.png
- create mode 100644 img/z01einsteinCross.png
- create mode 100644 img/z01freud.png
- create mode 100644 img/z01geocentryzm.png
- create mode 100644 img/z01kopernik.png
- create mode 100644 img/z01marks.png
- create mode 100644 img/z01pasta.png
- create mode 100644 img/z01shaug.png
- create mode 100644 img/z02bip.PNG
- create mode 100644 img/z02skepdic.PNG
- create mode 100644 mbp.Rproj
- create mode 100644 w01_intro.Rmd
- create mode 100644 w01_intro.html
-]0;~/Dropbox/dydaktyka/mbpkb-mbp:mbp kbas$ gpom
-fatal: 'origin' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-]0;~/Dropbox/dydaktyka/mbpkb-mbp:mbp kbas$ git remote add origin https://github.com/k-basinski/mbp .git
-]0;~/Dropbox/dydaktyka/mbpkb-mbp:mbp kbas$ git push -u origin master
-Enumerating objects: 47, done.
-Counting objects:   2% (1/47)   Counting objects:   4% (2/47)   Counting objects:   6% (3/47)   Counting objects:   8% (4/47)   Counting objects:  10% (5/47)   Counting objects:  12% (6/47)   Counting objects:  14% (7/47)   Counting objects:  17% (8/47)   Counting objects:  19% (9/47)   Counting objects:  21% (10/47)   Counting objects:  23% (11/47)   Counting objects:  25% (12/47)   Counting objects:  27% (13/47)   Counting objects:  29% (14/47)   Counting objects:  31% (15/47)   Counting objects:  34% (16/47)   Counting objects:  36% (17/47)   Counting objects:  38% (18/47)   Counting objects:  40% (19/47)   Counting objects:  42% (20/47)   Counting objects:  44% (21/47)   Counting objects:  46% (22/47)   Counting objects:  48% (23/47)   Counting objects:  51% (24/47)   Counting objects:  53% (25/47)   Counting objects:  55% (26/47)   Counting objects:  57% (27/47)   Counting objects:  59% (28/47)   Counting objects:  61% (29/47)   Counting objects:  63% (30/47)   Counting objects:  65% (31/47)   Counting objects:  68% (32/47)   Counting objects:  70% (33/47)   Counting objects:  72% (34/47)   Counting objects:  74% (35/47)   Counting objects:  76% (36/47)   Counting objects:  78% (37/47)   Counting objects:  80% (38/47)   Counting objects:  82% (39/47)   Counting objects:  85% (40/47)   Counting objects:  87% (41/47)   Counting objects:  89% (42/47)   Counting objects:  91% (43/47)   Counting objects:  93% (44/47)   Counting objects:  95% (45/47)   Counting objects:  97% (46/47)   Counting objects: 100% (47/47)   Counting objects: 100% (47/47), done.
-Delta compression using up to 4 threads
-Compressing objects:   2% (1/43)   Compressing objects:   4% (2/43)   Compressing objects:   6% (3/43)   Compressing objects:   9% (4/43)   Compressing objects:  11% (5/43)   Compressing objects:  13% (6/43)   Compressing objects:  16% (7/43)   Compressing objects:  18% (8/43)   Compressing objects:  20% (9/43)   Compressing objects:  23% (10/43)   Compressing objects:  25% (11/43)   Compressing objects:  27% (12/43)   Compressing objects:  30% (13/43)   Compressing objects:  32% (14/43)   Compressing objects:  34% (15/43)   Compressing objects:  37% (16/43)   Compressing objects:  39% (17/43)   Compressing objects:  41% (18/43)   Compressing objects:  44% (19/43)   Compressing objects:  46% (20/43)   Compressing objects:  48% (21/43)   Compressing objects:  51% (22/43)   Compressing objects:  53% (23/43)   Compressing objects:  55% (24/43)   Compressing objects:  58% (25/43)   Compressing objects:  60% (26/43)   Compressing objects:  62% (27/43)   Compressing objects:  65% (28/43)   Compressing objects:  67% (29/43)   Compressing objects:  69% (30/43)   Compressing objects:  72% (31/43)   Compressing objects:  74% (32/43)   Compressing objects:  76% (33/43)   Compressing objects:  79% (34/43)   Compressing objects:  81% (35/43)   Compressing objects:  83% (36/43)   Compressing objects:  86% (37/43)   Compressing objects:  88% (38/43)   Compressing objects:  90% (39/43)   Compressing objects:  93% (40/43)   Compressing objects:  95% (41/43)   Compressing objects:  97% (42/43)   Compressing objects: 100% (43/43)   Compressing objects: 100% (43/43), done.
-Writing objects:   2% (1/47)   Writing objects:   4% (2/47)   Writing objects:   6% (3/47)   Writing objects:   8% (4/47)   Writing objects:  10% (5/47)   Writing objects:  12% (6/47)   Writing objects:  14% (7/47)   Writing objects:  17% (8/47)   Writing objects:  19% (9/47)   Writing objects:  21% (10/47)   Writing objects:  23% (11/47)   Writing objects:  25% (12/47)   Writing objects:  27% (13/47)   Writing objects:  29% (14/47)   Writing objects:  31% (15/47)   Writing objects:  36% (17/47)   Writing objects:  40% (19/47)   Writing objects:  42% (20/47)   Writing objects:  44% (21/47)   Writing objects:  46% (22/47)   Writing objects:  48% (23/47)   Writing objects:  51% (24/47)   Writing objects:  53% (25/47)   Writing objects:  55% (26/47)   Writing objects:  57% (27/47)   Writing objects:  59% (28/47)   Writing objects:  61% (29/47)   Writing objects:  63% (30/47)   Writing objects:  65% (31/47)   Writing objects:  68% (32/47)   Writing objects:  70% (33/47)   Writing objects:  72% (34/47)   Writing objects:  72% (34/47), 1.07 MiB | 871.00 KiB/s   Writing objects:  74% (35/47), 1.07 MiB | 871.00 KiB/s   Writing objects:  76% (36/47), 1.07 MiB | 871.00 KiB/s   Writing objects:  78% (37/47), 1.07 MiB | 871.00 KiB/s   Writing objects:  80% (38/47), 1.07 MiB | 871.00 KiB/s   Writing objects:  82% (39/47), 1.07 MiB | 871.00 KiB/s   Writing objects:  85% (40/47), 2.50 MiB | 1.42 MiB/s   Writing objects:  87% (41/47), 2.50 MiB | 1.42 MiB/s   Writing objects:  89% (42/47), 2.50 MiB | 1.42 MiB/s   Writing objects:  91% (43/47), 2.50 MiB | 1.42 MiB/s   Writing objects:  93% (44/47), 3.31 MiB | 1.46 MiB/s   Writing objects:  95% (45/47), 3.31 MiB | 1.46 MiB/s   Writing objects:  97% (46/47), 3.31 MiB | 1.46 MiB/s   Writing objects:  97% (46/47), 5.51 MiB | 1.61 MiB/s   Writing objects: 100% (47/47), 7.01 MiB | 1.78 MiB/s   Writing objects: 100% (47/47), 8.05 MiB | 1.83 MiB/s, done.
-Total 47 (delta 3), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), done.[K
-remote: 
-remote: Create a pull request for 'master' on GitHub by visiting:[K
-remote:      https://github.com/k-basinski/mbp/pull/new/master[K
-remote: 
-To https://github.com/k-basinski/mbp.git
- * [new branch]      master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
-]0;~/Dropbox/dydaktyka/mbpkb-mbp:mbp kbas$ git add .

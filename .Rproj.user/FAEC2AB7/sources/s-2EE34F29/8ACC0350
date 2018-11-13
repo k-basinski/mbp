@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1542101355061.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8ACC0350",
+    "lastKnownWriteTime" : 1511284090,
+    "last_content_update" : 1511284090,
+    "path" : "~/Dropbox/dydaktyka/metodologia/PrezentacjeMetodologiaCwiczenia/z02hipotezyZmienne.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "76,0",
+        "scrollLine" : "60"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

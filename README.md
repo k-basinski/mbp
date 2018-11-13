@@ -1,6 +1,9 @@
 # Metodologia badań psychologicznych
 
 
+## Terminy zajęć
+
+
 
 ## Wykłady
 

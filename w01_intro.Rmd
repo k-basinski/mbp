@@ -54,6 +54,7 @@ k-basinski.github.io/mbp
 - Ocena = 0.5 * egzamin + 0.25 * ćwiczenia w zimie + 0.25 * ćwiczenia w lecie
 
 
+# Podstawy filozofii nauki
 
 
 ## Psychologia jako nauka

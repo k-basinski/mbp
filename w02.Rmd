@@ -163,4 +163,4 @@ output:
 ## Różnice pomiędzy grupami - przykładowe hipotezy
 - Kobiety są bardziej rozmowne niż mężczyźni
 - Ludzie rozmawiający przez telefon w czasie jazdy samochodem gorzej prowadzą samochód niż ludzie nie rozmawiający przez telefon
--
+- Ludzie częściej 

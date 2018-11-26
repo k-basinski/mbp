@@ -87,6 +87,12 @@ output:
 - Czy zjawisko dotyczy wszystkich ludzi, czy tylko niektórych?
 - Czy zjawisko występuje zawsze czy tylko w określonych sytuacjach?
 
+## Czym charakteryzują się dobre pytania badawcze
+- Są **weryfikowalne**
+- Są interesujące
+- Są ważne dla świata
+
+# Populacja, próba, metody doboru
 
 ## Populacja i próba
 - *Populacja* - ogół osób, do których odnosi się dana teoria psychologiczna (np. populacja wszystkich ludzi, populacja kobiet, populacja niemowląt)
@@ -94,9 +100,58 @@ output:
 - Badamy tylko określona cześć populacji - *próbę*
 - Jest wiele różnych metod *doboru próby*
 
+## Metody doboru próby
+- Probabilistyczne
+    - Dobór prosty losowy (_simple random sampling_)
+    - Dobór warstwowy (_stratified sampling_)
+    - Dobór systematyczny (_systematic sampling_)
+- Nieprobabilistyczne
+    - Dobór przypadkowy (_convenience sampling_)
+    - Dobór kwotowy (_quota sampling_)
+    - Kula śniegowa (_snowball sampling_)
+- I wiele, wiele innych...
+
+## Obrazki z towardsdatascience.com
+
+## Dobór prosty, losowy
+- Każda osoba z populacji ma równą szansę dostania się do próby
+- Potrzebny **operat losowania**
+
+## Dobór prosty, losowy
+![prosty losowy](img/w02_cluster.png)
+
+## Dobór warstwowy
+- Dobór pod względem jakiejś ważnej charakterystyki
+- Najpierw trzeba wyłonić ważne charakterystyki, co bywa trudne
+- W obrębie warstw stosujemy dobór prosty losowy
+
+## Dobór warstwowy
+![Dobór warstwowy](img/w02_stratified.png)
+
+## Dobór systematyczny
+- Jeśli dysponujemy populacją uszeregowaną, możemy wybrać co n-tą osobę z szeregu
+- Często w badaniach medycznych (np. _co trzecia osoba rejestrująca się do onkologa w WCO_)
+- Metoda dobra jeśli tylko lista nie zawiera w sobie ukrytego porządku
+
+## Dobór systematyczny
+![Dobór systematyczny](img/w02_systematic.png)
+
+## Dobór przypadkowy
+- Kto się nawinie
+- Najczęstszy przypadek w badaniach psychologicznych
+- Może nie stanowić problemu, może stanowić ogromny problem
+
+## Dobór kwotowy
+- Zakładamy liczebności osób o zadanych cechach obecne w populacji
+- Rekrutujemy badanych aż osiągniemy te liczebności
+
+## Kula śniegowa
+- Rekrutujemy badanego, po czym każemy mu przyprowadzić ludzi podobnych do niego
+- Zupełnie niepoprawne metodologicznie, ale czasem jest to jedyna opcja, jeśli badamy bardzo specyficzne populacje/bardzo rzadkie cechy
+
 
 ## Próba a populacja
-- Skąd wiemy, że zależność wykryta w próbie jest obecna w populacji?
+- Skąd wiemy, że zależność wykryta w próbie jest obecna w populacji? Nawet jeśli mamy najlepszy, najbardziej reprezentatywny dobór próby.
 - Nie wiemy
 - Możemy przypuszczać z określonym *prawdopodobieństwem*
 - Do określenia tego prawdopodobieństwa potrzebujemy testów statystycznych

@@ -118,7 +118,7 @@ output:
 - Potrzebny **operat losowania**
 
 ## Dobór prosty, losowy
-![prosty losowy](img/w02_cluster.png)
+![prosty losowy](img/w02_simple_random.png)
 
 ## Dobór warstwowy
 - Dobór pod względem jakiejś ważnej charakterystyki

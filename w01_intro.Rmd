@@ -10,7 +10,7 @@ output:
 
 # Metodologia badań psychologicznych
 
-# Podstawowe info
+# Podstawowe informacje
 
 ## Kontakt
 

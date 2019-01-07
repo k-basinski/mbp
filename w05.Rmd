@@ -1,0 +1,105 @@
+---
+title: "Metodologia Badań Psychologicznych 05"
+author: "Krzysztof Basiński"
+output:
+  revealjs::revealjs_presentation:
+    theme: serif
+    center: true
+    incremental: true
+---
+
+# Plany badawcze - podsumowanie
+
+## Rodzaje planów badawczych
+
+- Studia przypadków
+- Obserwacyjne
+- Quasi-eksperymenty i eksperymenty naturalne
+- "Prawdziwe" eksperymenty
+- Przeglądowe
+- Meta-analityczne
+
+## Badania obserwacyjne
+
+- Case-control study
+- Badanie przekrojowe
+- Badanie podłużne/longitudinalne
+- Badanie kohortowe/panelowe
+
+## Studia przypadków
+
+- Badanie _jednej_ osoby
+- Dogłebny, szczegółowy opis
+- Osoba musi być ciekawa poznawczo:)
+- Problem generalizacji
+
+## Słynne studia przypadków w psychologii
+
+- Phineas Gage
+- Anna O.
+- _The Three Faces of Eve_
+- Kitty Genovese
+
+## Case-control study (badanie kliniczno-kontrolne)
+
+- Dwie grupy różniące się zmienną zależną porównywane są pod kątem potencjalnych zmiennych niezależnych
+- Np. porównanie osób chorych i zdrowych pod kątem jakiejś cechy psychologicznej
+
+
+## Badania przekrojowe (_cross-sectional_)
+
+- Badamy jakąś grupę w jednym punkcie w czasie (stąd _przekrój_)
+- Szukamy korelacji, różnic pomiędzy grupami itd.
+- Łatwe do przeprowadzenia, trudne do interpretacji w kategorii mechanizmów
+- Częsty w psychologii problem wielkich macierzy korelacji z których nic nie wynika
+
+## Badania podłużne/longitudinalne
+
+- Badamy grupę/grupy w kilku punktach w czasie
+- Możemy uchwycić proces
+- Często w psychologii rozwojowej, ale również w klinicznej
+
+
+## Badania kohortowe/panelowe
+
+- Śledzenie przez dłuższy czas szerokiej grupy ludzi (np. mieszkańców jednego miasta)
+- Popularne w epidemiologii (metodologia badań medycznych)
+
+## Quasi-eksperymenty
+
+- Eksperymenty, w których z różnych przyczyn niespełniony jest warunek losowego doboru osób do grup
+- Często używane wszędzie tam, gdzie niepraktyczne/nieetyczne jest zrobienie prawdziwego eksperymentu
+- Np. porównanie wyników nauczania jakiegoś przedmiotu pomiędzy dwoma klasami w szkole
+
+## Eksperymenty naturalne
+
+- Manipulacji nie dokonuje eksperymentator tylko _"natura"_
+- Warunek - osoby dotknięte manipulacją _"losowo"_
+- Stosuje się tam, gdzie manipulacja jest niepraktyczna/nieetyczna
+- Np. wpływ promieniowania na rozwój psychiczny dzieci
+
+## Epidemia cholery w Londynie
+
+![cholera](img/w05/cholera.jpg)
+
+## Quasi-eksperyment vs. eksperyment naturalany
+
+- W quasi-eksperymencie manipuluje badacz, w eksperymencie nautralnym _"natura"_
+- Oba plany badawcze nie są prawdziwymi eksperymentami - niespełniony jest warunek losowego doboru do grup
+
+## Prawdziwe eksperymenty
+
+- Plany proste:
+    - Plan grup niezależnych
+    - Powtarzane pomiary
+- Plany złożone (semestr letni)
+
+## Przeglądy
+
+- To badanie o innych badaniach
+- Może być systematyczny - wtedy do selekcji prac stosujemy określone reguły
+- Najczęściej wyniki podane są w formie syntetycznej i ocenia się jakość metodologiczną każdej z prac
+
+## Metaanalizy
+
+- Systematyczny przegląd + zbiorcza analiza wyników

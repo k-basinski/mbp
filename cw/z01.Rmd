@@ -1,0 +1,64 @@
+---
+title: "Metodologia badań psychologicznych - ćwiczenia 01 - organizacja"
+author: "Krzysztof Basiński"
+output:
+  revealjs::revealjs_presentation:
+    theme: serif
+    center: true
+    incremental: true
+    self_contained: false
+    lib_dir: reveal_libs
+---
+
+# Organizacja zajęć
+
+## Co trzeba zrobić, żeby zaliczyć?
+
+- Zrobić projekt
+- Napisać artykuł (taki jak każdy inny artykuł naukowy z psychologii, standard APA!) - 20 pkt
+- Zrobić prezentację z badania (zal/nzal)
+- Napisać kolokwium - 5 pkt
+- Chodzić na zajęcia (2 razy można nie być)
+
+## Projekt:
+
+- grupy 2-3 osobowe
+- replikacja badania albo badanie oryginalne
+- badanie eksperymentalne
+- nie może budzić wątpliwości etycznych
+
+
+## Badania nie budzą wątpliwości etycznych, jeśli:
+
+- Badani zgadzają się świadomie na udział
+- Nie ma konfliktu interesów między badanym a eksperymentatorem
+- Badany w każdej chwili może odmówić udziału
+- Badany jest wystawiony na niebezpieczeństwo nie większe niż "normalne"
+
+
+## Struktura artykułu naukowego:
+
+- Wstęp
+- Cel pracy (hipotezy)
+- Metoda
+- Wyniki
+- Dyskusja
+- (wnioski)
+
+## Czasem jest kilka badań w jednym artykule:
+
+- Wstęp
+- Cel
+- Badanie 1:
+  - Metoda
+  - Wyniki
+  - Dyskusja
+- Badanie 2:
+  - Metoda
+  - Wyniki
+  - Dyskusja
+- Badanie 3:
+  - Metoda
+  - Wyniki
+  - Dyskusja
+- Dyskusja i wnioski

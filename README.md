@@ -24,6 +24,28 @@ Wszystkie materiały w jednym miejscu: [html](mbp_all.html) | [pdf](mbp_all.pdf)
 
 - [Plany złożone](cw/plany_zlozone.html)
 
+Uwaga, na zajęcia 29.03.2019 proszę przynieść laptopy z zainstalowanym [PsychoPy](https://www.psychopy.org/installation.html)
+
+#### Wzór protokołu:
+
+```
+# tytuł badania
+
+## autorzy
+
+## notka bibliograficzna oryginalnego badania
+
+Wagner, W., Roncat, A., Melzer, T., & Ullrich, A. (2007). Waveform analysis techniques in airborne laser scanning. International Archives of Photogrammetry and Remote Sensing, 36(3), 413-418.
+
+## cel badania
+
+## hipotezy
+
+## PROCEDURA BADANIA
+
+## Informacja dla badanego
+```
+
 
 ### Błędy
 Na pewno w wielu miejscach popełniłem jakieś błędy. Jeśli znajdziesz błąd, koniecznie daj mi znać. Najlepiej poprzez stworzenie `issue` na GitHubie albo od razu - `pull request` z proponowanymi zmianami.

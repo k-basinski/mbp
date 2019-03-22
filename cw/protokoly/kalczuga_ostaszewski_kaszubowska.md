@@ -1,16 +1,25 @@
-Kałczuga, Ostaszewski, Kaszubowska
+# Protokół
+### Wpływ aktywacji stereotypu starości na tempo działania
 
-### Efekt behawioralny aktywacji stereotypu starości
+Natasza Kałczuga, Aleksandra Kaszubowska, Bartłomiej Ostaszewski
 
-Przebieg eksperymentu:
+Bargh, J. A., Chen, M., & Burrows, L. (1996). Automaticity of social behavior: Direct effects of trait construct and stereotype activation on action. Journal of personality and social psychology, 71(2), 230
+
+#### Hipoteza:
+Behawioralne odpowiedzi na sytuacje są reprezentowane w umyśle, więc powinny być także automatycznie aktywowane przez obecność jakiegoś bodźca ze środowiska na tych samych zasadach co inne reprezentacje.
+
+#### Przebieg eksperymentu:
+Badanych losowo dzielimy na 2 grupy po 15 osób. Każda z osób otrzyma arkusz zawierający 5 losowo wybranych rozsypanek wyrazowych. Grupa badawcza otrzymuje rozsypanki zawierające wyrazy kojarzące się ze stereotypem starości. Grupa kontrolna otrzymuje rozsypanki nienacechowane stereotypowo. Wyrazy w obu grupach nie odnoszą się do ruchu. Po wypełneniu zadania uczestnicy przechodzą dystans ok 10 m. Zostaje odmierzony czas.
+
+#### Etapy eksperymentu:
 
 1. Prośba o udział w badaniu;
    Poinformowanie o celu i przebiegu badania:
-   "Czy zechaciałby/aby Pan/i wziąć udział w badaniu?
-   Badanie ma na celu spradzenie biegłości językowej.
+   "Czy zechciałby/aby Pan/i wziąć udział w badaniu?
+   Badanie ma na celu sprawdzenie jak język wpływa na zachowanie.
    Otrzyma Pan/i arkusz z 5 zestawami zawierającymi
    rozsypanki wyrazowe, z których należy ułożyć poprawne
-   gramatycznie zdania, skłądające się 4 lub 5 słów.
+   gramatycznie zdania, składające się 4 lub 5 słów.
    Badanie jest anonimowe i w każdej chwili może Pan/i
    zrezygnować z udziału w nim"
    Wręczenie zgody na udział w badaniu.
@@ -22,20 +31,8 @@ celu wypełnienia kwestionariusza dotyczącego badania:
 do mojej koleżanki i wypałnił/a kwestionariusz dotyczący
 udziału w badaniu"
 
-3. W czasie gdy uczestnik podchodzi po kwestionariusz,
-eksperymentator  włącza stoper i odmierza czas w którym
+3. W czasie gdy uczestnik podchodzi po kwestionariusz
+eksperymentator włącza stoper i odmierza czas w którym
 uczestnik pokonuje określoną odległość (10 m).
 
-4. Po wypełnieniu przez uczestnika kwestionariusza
-eksperymentator wyjaśnia prawdziwy cel badania i
-pyta o ponowną zgodę na wykorzystanie jego wyników,
-następnie dziękuje badanemu za udział.
-"Zmuszona jestem wyjawić Panu/i prawdziwy cel badania,
-którego treść została uprzednio zmodyfikowana by
-uzyskać wiarygodne wyniki. Badanie polegało na
-sprawdzeniu wpływu aktywacji stereotypu za zachowanie,
-a dokładniej czy wykonane przez Pana/ią ćwiczenie
-wpłynęło na czas w jakim przemierzył/a Pan/i odległość
-do mojego stanowiska. Czy w takiej sytuacji zgodzi się
-Pan/i na wykorzystanie pana/i wyników? Dziękuję za
-udział w eksperymencie"
+4. Po wypełnieniu przez uczestnika kwestionariusza  eksperymentator dziękuje za udział w badaniu. "Dziękuję za udział w badadniu."

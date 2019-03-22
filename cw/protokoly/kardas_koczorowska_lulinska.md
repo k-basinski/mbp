@@ -2,7 +2,12 @@ Maria Kardas
 Laura Koczorowska
 Izabela Lulińska
 
+
+
+## Czy efektywność pamięci uzależniona jest od wiedzy na temat ilości informacji do zapamiętania?
+
 ## „Rate of Presentation in Free Recall: A Problem for Two-Stage Memory Theories”
+
 
 ## Informacja dla osób badanych
 

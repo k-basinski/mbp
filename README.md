@@ -25,7 +25,7 @@ Wszystkie materiały w jednym miejscu: [html](mbp_all.html) | [pdf](mbp_all.pdf)
 
 - [Plany złożone](cw/plany_zlozone.html)
 - [Notatki z przygotowania danych do analizy](cw/wymogi_dane.html)
-- [Przykłady w xls](cw/przygotowanie_danych/przyklady.zip)
+- [Przykłady w xls](cw/przygotowanie_danych_przyklad/przyklady.zip)
 
 Uwaga, na zajęcia 29.03.2019 proszę przynieść laptopy z zainstalowanym [PsychoPy](https://www.psychopy.org/installation.html)
 

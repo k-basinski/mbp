@@ -3,8 +3,9 @@
 
 ## Terminy zajęć
 
-Zajęcia odbywają się we wtorki o 13:15 w sali 202 na Tuwima.
+Wykłady w semestrze zimowym odbywają się we wtorki o 13:15 w sali 202 na Tuwima.
 
+Ćwiczenia w semestrze letnim odbywają się w piątki o godz. 8:00, 9:45 i 11:30 w różnych miejscach (sprawdzajcie proszę plan!)
 
 ## Wykłady
 
@@ -23,6 +24,8 @@ Wszystkie materiały w jednym miejscu: [html](mbp_all.html) | [pdf](mbp_all.pdf)
 ## Ćwiczenia
 
 - [Plany złożone](cw/plany_zlozone.html)
+- [Notatki z przygotowania danych do analizy](cw/wymogi_dane.html)
+- [Przykłady w xls](cw/przygotowanie_danych/przyklady.zip)
 
 Uwaga, na zajęcia 29.03.2019 proszę przynieść laptopy z zainstalowanym [PsychoPy](https://www.psychopy.org/installation.html)
 

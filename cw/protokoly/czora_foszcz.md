@@ -1,26 +1,44 @@
+## Poprawność i szybkość wykonywania zadania, a motywacja
 
-# Pola Czora, Aleksandra Foszcz
+Autorzy badania, na którym się wzorujemy to szwedcy studenci - Joachim Ramm, Sigve Tjotta i Guaute Torsvik. Badanie przeprowadzili w 2013 roku.
+Oryginalne badanie opierało się na zbadaniu w jaki sposób grupy rozwiązujące problemy osobowe reagują na zachęty finansowe, a także czy niezależnie
+od oczekiwaych nagród grupy są lepsze w rozwiązywaniu problemów niż osoby działajace w pojedynkę. Badani byli podzieleni na osoby działające samodzielnie oraz
+w grupach, następnie utorzono w każdym przypadku grupę motywowaną i niemotywowaną. Wszyscy  rozwiązywali eksperyment Dunckera mając narzucone ograniczenie czasowe.
 
-Nasze badanie będzie polegało na sprawdzeniu czy motywacja nagrodą ma wpływ na  szybkość i poprawność rozwiązywania zadania. Badani dostaną obrazek przedstawiający eksperyment Dunckera i będą mieli za zadanie rozwiązanie problemu. Eksperyment przeprowadzimy na ok. 30 osobach. Będą to studenci mniej więcej tej samej grupy wiekowej. Badanie przeprowadzimy turami. Uczestników podzielimy na dwie grupy losowo, odliczając do dwóch bądź przygotowując karteczki do losowania z numerami 1 lub 2. Jedna grupa będzie motywowana nagrodą, a druga nie. Każda grupa będzie składać się z 15 osób. W każdej grupie mierzony będzie czas wykonania zadania przez poszczególną osobę.  
-Po podzieleniu, każda z nas pójdzie do poszczególnej grupy i przedstawi jej formułę badania, która zawiera informację o celu badania i o grupie, do której należą uczestnicy. W grupie niemotywowanej uczestnicy dowiedzą się o istnieniu nagrody dla drugiej grupy dopiero po rozwiązaniu przez wszystkich zadania, aby nie zniechęcali się do rozwiązania zadania.
-Formuły:
+Celem naszego badania jest sprawdzenie czy motywacja nagrodą ma wpływ na szybkość i poprawność rozwiązywania zadania. Chcemy zbadać czy powszechne podejście do nagradzania jako metody motywacji jest skuteczne.
 
-1)	„GRUPA MOTYWOWANA”
+Hipoteza naszego badania: Motywacja nagrodą wpływa niekorzystnie na szybkość i poprawność rozwiązywania zadania.
 
-	„Celem naszego badania jest sprawdzenie czy motywacja nagrodą ma wpływ na szybkość i poprawność rozwiązywania zadania. Dla osób z najlepszym wynikiem przygotowane są nagrody. Zadanie polega na rozwiązaniu eksperymentu Dunckera, w którym do dyspozycji jest:  świeczka, pudełko z zapałkami i pineZki. Celem zadania jest przymocowanie świeczki do ściany za pomocą przedstawionych obiektów tak, że świeca może wypalić się prawidłowo, a na stole i podłodze nie ścieknie żaden wosk. Na wykonanie zadania jest 7 minut. Po rozwiązaniu zadania należy podnieść rękę i pozostać na miejscu do czasu ukończenia zadania przez resztę uczestników. Życzę powodzenia i nie zapominajcie o nagrodzie.”
+Uczestnicy biorący udział w badaniu otrzymają obrazek przedstawiający eksperyment Dunckera, kartkę, długopis i będą mieli za zadanie rozwiązanie problemu. Eksperyment przeprowadzimy
+na około 30 osobach. Będą to studenci w mniej więcej tej samej grupie wiekowej. Badanie zostanie przeprowadzone turami. Uczestnicy zostaną podzieleni na na dwie grupy
+losowo - odliczając do dwóch bądź losując karteczki z numerami (1-grupa motywowana, 2- grupa niemotywowana). W grupie motywowanej osoby z najlepszym wynikiem dostaną magrodę.
+Każda grupa będzie się skłądać z 15 osób. W obu grupach mierzony będzie również czas wykonania zadania przez poszczególne osoby. Badani będą musieli zapisać lub narysować
+rozwiązanie zadania. Po podzieleniu uczestników, każda z nas pójdzie do poszczególnej grupy i przedstawi jej formułę badania, która zawiera informacje o celu badania i o grupie,
+do kórej należą  uczestnicy. Każda z nas przedstawi informacje zarówno w grupie motywowanej jak i w niemotywowanej - zależnie od tury.
 
+Formuła dla "GRUPY MOTYWOWANEJ":
+„Razem z koleżanką jesteśmy studentkami pierwszego roku psychologii zdrowia i w ramach ćwiczeń z metodologii badań psychologicznych mamy przeprowadzić eksperyment.
+Celem naszego badania jest sprawdzenie czy motywacja nagrodą ma wpływ na szybkość i poprawność rozwiązywania zadania. Wy znajdujecie się w grupie
+motywowanej, dlatego dla osób z najlepszym wynikiem przygotowane są nagrody. Zadanie polega na rozwiązaniu eksperymentu Dunckera, w którym do dyspozycji jest:
+świeczka, pudełko z zapałkami i pinezki. Celem zadania jest przymocowanie świeczki do ściany za pomocą wszystkich przedstawionych obiektów tak, aby świeca mogła się wypalić,
+a po stole i po podłodze nie ścieknie wosk. Na wykonanie zadania jest 15 minut. Rozwiązanie należy opisać słownie lub narysować. Po rozwiązaniu zadania należy podnieść
+rękę i pozostać na miejscu do czasu ukończenia zadania przez resztę uczestników. Kiedy wszyscy skończą rozwiązywać zadanie podejdę do Was w celu sprawdzenia poprawności.
+Życzę powodzenia i nie zapominajcie o nagrodzie.”
 Po ukończeniu zadania:
+„Dziękuję za udział w badaniu i poświęcony czas.”
 
+Dwie osoby z najlepszym wynikiem otrzymają czekoladę, a reszta uczestników w ramach podziękowań otrzyma cukierka.
+
+Formuła dla "GRUPY NIEMOTYWOWANEJ" :
+"Razem z koleżanką jesteśmy studentkami pierwszego roku psychologii zdrowia i w ramach ćwiczeń z metodologii badań psychologicznych mamy przeprowadzić eksperyment.
+Celem naszego badania jest sprawdzenie szybkości i poprawności rozwiązywania zadania. Zadanie polega na rozwiązaniu eksperymentu Dunckera, w którym do dyspozycji
+jest: świeczka, pudełko z zapałkami i pinezki. Celem zadania jest przymocowanie świeczki do ściany za pomocą wszystkich przedstawionych obiektów tak, aby świeca mogła się wypalić,
+a na po stole i po podłodze nie ścieknie wosk. Na wykonanie zadania jest 15 minut. Rozwiąznie należy opisać słownie lub narysować. Po rozwiązaniu zadania należy podnieść rękę
+i pozostać na miejscu do czasu ukończenia zadania przez resztę uczestników. Kiedy wszyscy skończą rozwiązywać zadanie podejdę do Was w celu sprawdzenia poprawności.
+Życzę powodzenia .”
+Po ukończeniu zadania:
 „Dziękujemy za udział w badaniu i poświęcony czas.”
 
+W grupie niemotywowanej wszyscy uczestnicy dostaną cukierka w ramach podziękowań.
 
-2) GRUPA NIEMOTYWOWANA
-
-	„Celem naszego badania jest sprawdzenie szybkości i poprawności rozwiązywania zadania. Zadanie polega na rozwiązaniu eksperymentu Dunckera, w którym do dyspozycji jest:  świeczka, pudełko z zapałkami i pineski. Celem zadania jest przymocowanie świeczki do ściany za pomocą przedstawionych obiektów tak, że świeca może wypalić się prawidłowo, a na stole i podłodze nie ścieknie żaden wosk. Na wykonanie zadania jest 7 minut. Po rozwiązaniu zadania należy podnieść rękę i pozostać na miejscu do czasu ukończenia zadania przez resztę uczestników. Życzę powodzenia .”  
-
-Po ukończeniu zadania:
-
-	„Dziękujemy za udział w badaniu i poświęcony czas, dokładnym celem naszego badania było zbadanie czy motywacja ma wpływ na szybkość i poprawność rozwiązania problemu. Państwo należeli do grupy niemotywowanej. W celu nie zniechęcenia was do zaangażowania w zadanie, nie powiedziałam tego na początku.”
-
-
-W grupie motywowanej trzy najlepsze wyniki otrzymają nagrodę. Otrzymane wyniki przeanalizujemy pod względem poprawności oraz czasu  i przedstawimy na zajęciach.
+Wyniki badania przeanalizujemy i przedstwaimy na zajęciach.

@@ -1,36 +1,37 @@
-# Protokół
+# Różnica w czasie reakcji między oceną identyczności  liter według kryterium fizycznego i nominalnego
 
-## Przygotowane do badań: komputer, długopis i kartki ze zgodą do podpisania
+## Autorzy:
+Jakub Deleżuch,
+Michał Gondek,
+Magdalena Jaworowska.
+
+## Przygotowane do badań:
+komputer
 
 ## Chcemy zbadać:
+studentów z naszego kierunku, ze względu na bardzo małą ilość osób płci męskiej wolelibyśmy zrobić to jedynie na przedstawicielkach płci przeciwnej. Będziemy używać programu PsychoPy.
 
-studentów z naszego kierunku, ze względu na bardzo małą ilość osób płci męskiej wolelibyśmy zrobić to jedynie na przedstawicielkach płci przeciwnej. Będziemy używać tego programu co był wspominany na ostatnich zajęciach.
+## Cel badania
+Celem naszego badania jest sprawdzenie, czy istnieje różnica w czasie reakcji między oceną identyczności liter według kryterium fizycznego (takie same pod względem wyglądu) i nominalnego (takie same pod względem dźwięku/nazwy).
+
+## Hipoteza:
+Badany będzie reagował szybciej w przypadku zastosowania kryterium identyczności fizycznej.
 
 ## Przebieg badania:
-
 Jeden z badaczy podchodzi do osoby wchodzącej do sali wykładowej i mówi:
 
-- „Dzień dobry, nazywam się „”, przeprowadzamy badanie dotyczące czasu reakcji. Czy zechciałby Pan/Pani w nim
-uczestniczyć?”
+- „Dzień dobry, nazywam się „”, przeprowadzamy badanie dotyczące czasu reakcji. Czy zechciałby Pan/Pani w nim uczestniczyć?”
 
 Badacz prowadzi osobę do stolika z komputerem. Wyjaśnia się badanemu przebieg badania:
 
-- „Badanie składa się z jednej próby. Zobaczysz dwie litery wyświetlone równocześnie dwa razy, z przerwą pomiędzy wyświetlaniem. Twoim zadaniem jest za pierwszym razem ocenić czy litery są takie same pod względem wyglądu, **a za drugim razem czy są takie same pod względem dźwięku, który oznaczają**. Jeśli są takie same, naciśnij strzałkę w lewo, jeśli są różne, naciśnij strzałkę w prawo. Jeśli zgadzasz się na udział w badaniu, podpisz się tutaj.”
+- „Badanie składa się z jednej próby. Zobaczysz dwie litery wyświetlone równocześnie dwa razy, z przerwą pomiędzy wyświetlaniem. Twoim zadaniem jest za pierwszym razem ocenić czy litery są takie same pod względem wyglądu (A i A są takie same, A i a nie są takie same). Za drugim razem czy oznaczają taki sam dźwięk/czy mają taką samą nazwę (np. A i a są takie same, B i B są takie same, C i d są różne, e i f są różne). Jeśli są takie same, naciśnij "A", jeśli są różne, naciśnij "L". Zrobimy kilka rund testowych. Powiedz, gdy będziesz gotowy.”
 
-Badany ma czas na zapoznanie się z treścią zgody na badanie, po podpisaniu siada przed komputerem i wykonuje polecenia, a badacz chowa kartkę do teczki. Po zakończeniu badania dziękujemy za uczestnictwo i (jeśli będzie mnie stać) oferujemy poczęstunek w postaci cukierka.
+## Procedura samego badania:
+Badany siada przed komputerem, na którym włączony jest program, ustawiony pod nasze badanie. Na początek proponujemy badanemu wykonanie rund/rundy testowej celem zapoznania się z procesem badania. Gdy badany uzna że jest gotowy, zaczynamy badanie. W pierwszej części, pokazane zostaną dwie losowe litery. Badany ma za zadanie stwierdzić, czy litery są identyczne pod względem wyglądu. W przypadku stwierdzenia identyczności, badany przyciska "A" na klawiaturze laptopa, jeśli stwierdzi, że nie są identyczne, przyciska "L". W drugiej części znowu pokazane zostaną dwie losowe litery. Badany ma za zadanie stwierdzić, czy oznaczają one taki sam dźwięk/czy mają taką samą nazwę. W przypadku stwierdzenia identyczności, badany przyciska "A" na klawiaturze laptopa, jeśli stwierdzi, że nie są identyczne, przyciska "L".
 
-## Informacja dla osób badanych do podpisania:
+## W trakcie i po badaniu:
+Badany wykonuje polecenia. Po zakończeniu badania dziękujemy za uczestnictwo i oferujemy poczęstunek w postaci cukierka.
 
-Nasz zespół złożony jest z 3 osób.
-Eksperyment służy celom naukowym. Wyniki zostaną zaprezentowane na zajęciach z przedmiotu.
-Docelową grupę badawczą stanowią studenci.
-Udział w eksperymencie jest anonimowy i dobrowolny, w każdej chwili można odstąpić od udziału.
-Eksperyment zajmuje około 3 minut.
-
-### Zgoda na przetwarzanie danych osobowych:
-
-Odpowiadając na pytanie poniżej oświadczam, że wyrażam zgodę na przetwarzanie moich danych osobowych w zakresie niezbędnym do realizacji projektu badawczego, w którym biorę udział.  Zostałam/em poinformowana/y o tym, że badacz dołoży wszelkich starań, aby moje dane były właściwie zabezpieczone.
-
-### Zgoda na udział w badaniu:
-
-Odpowiadając na pytanie poniżej oświadczam, że zostałam/em szczegółowo poinformowana/y o sposobie przeprowadzania badań i moim w nich udziale. Rozumiem, na czym polegają badania i do czego potrzebna jest moja zgoda. Zostałam/em poinformowana/y, że mogę odmówić uczestnictwa w badaniach w każdym momencie realizacji projektu badawczego. Wyrażam świadomą zgodę na uczestnictwo w badaniach.
+## Oryginalne badanie:
+Posner, M. I., Boies, S. J., Eichelman, W. H., & Taylor, R. L. (1969). Retention of visual and name codes of single letters. Journal of Experimental Psychology, 79(1, Pt.2), 1-16.
+http://dx.doi.org/10.1037/h0026947

@@ -1,23 +1,19 @@
-Karolina Hark, Anna Bollin
+## Azjatycka bolączka – jak nacechowanie emocjonalne słów wpływa na podejmowanie decyzji? 
+Anna Bollin, Karolina Hark
 
-Efekt obramowania
+### Pierwowzór
+Jedną z popularniejszych koncepcji dotyczących podejmowania decyzji jest tzw. *teoria perspektywy* (Kahneman, Tversky, 1979), za którą w 2002 roku Kahneman otrzymał Nagrodę Nobla w zakresie ekonomii. Związana jest ona z odkryciem przez Kahnemana i Tversky’ego tzw. *efektu obramowania*, czyli wpływu umysłowej reprezentacji problemu na podejmowane w związku z nim decyzje. Reprezentacja umysłowa problemu może ulec zmianie pod wpływem nacechowania słów użytych do jego wyjaśnienia oraz szerszego kontekstu, w jakim należy podjąć decyzję. Człowiek nakłada na sytuację pewnego rodzaju ramy (Minksy, 1975), co powoduje jego skłanianie się do podejmowania swoistych wyborów. Kahneman i Tversky przedstawiają efekt obramowania na przykładzie wyboru właściwej terapii w kraju zagrożonym epidemią. Eksperyment został przeprowadzony w 1984 roku.
 
-Badanie przeprowadzone zostanie na dwóch grupach niezależnych. Dobór do próby odbędzie się w sposób przypadkowy (znajomi studenci w podobnym wieku), natomiast dobór do jednej z dwóch grup będzie losowy – badani będą wyciągać karteczkę z numerem grupy. Mężczyźni i kobiety losować będą z osobnych zbiorów, w których ilość kartek z grupą 1 będzie równa ilości kartek z grupą 2. Przed rozpoczęciem eksperymentu uczestnicy otrzymają krótki formularz do wypełnienia, w którym znajdować będą się: zgoda na udział w badaniu oraz na przetwarzanie danych osobowych, informacja o możliwości rezygnacji w dowolnym momencie oraz kwestionariusz wywiadu (płeć, wiek, wykształcenie). Następnie badani otrzymają kartkę z opisem sytuacji, w której kraj przygotowuje się do wybuchu epidemii oraz do wyboru jeden z dwóch programów zwalczenia zarazy. Programy zwalczania będą się różnić między grupami badanych.
+### Cel badania
+Celem badania jest zaobserwowanie, czy użycie określonych słów nacechowanych pozytywnie/negatywnie do przedstawienia problemu decyzyjnego wpływa na skłonność do podejmowania ryzykownych decyzji oraz czy mężczyźni wykazują większą skłonność do podejmowania ryzyka niż kobiety, niezależnie od nacechowania emocjonalnego słów, użytych do opisu problemu.
 
-B- badany
+### Hipotezy
+Użycie pozytywnie nacechowanych emocjonalnie słów do opisu sytuacji problemowej zwiększa skłonność do podjęcia ryzykownej decyzji.
+Mężczyźni podejmują ryzyko częściej niż kobiety, niezależnie od nacechowania emocjonalnego słów użytych do opisu problemu.
 
-E- eksperymentator
+### Procedura badania
+Badanie przeprowadzone zostanie internetowo na dwóch grupach niezależnych. Stworzone zostały dwa formularze, w których odpowiedzi będą się różnić doborem słów. Badani zostaną poinformowani o przebiegu eksperymentu oraz o możliwości odstąpienia w dowolnym momencie jego trwania. Aby wziąć udział, należy w pierwszej kolejności wyrazić świadomą zgodę, a następnie podać swoje dane – płeć oraz wiek.
 
-E: Dzień dobry, proszę o zajęcie miejsca.
-
-B: Dzień dobry, dziękuję.
-
-E: Badanie, które pan(-i) zaraz otrzyma dotyczy wydawania sądów i podejmowania decyzji. Przed rozpoczęciem proszę o wypełnienie krótkiego formularza wraz z dwiema zgodami.  W przypadku jakichkolwiek wątpliwości proszę o informację.
-
-[Badany dostaje formularz i wypełnia]
-
-E: Teraz otrzyma pan(-i) opis pewnej sytuacji i dwa rozwiązania, z których proszę  o wybranie jednego.
-
-[Badany dostaje kartkę, zapoznaje się z informacjami na niej zawartymi oraz zaznacza odpowiedź]
-
-E: Dziękuję za poświęcony czas, do widzenia.
+### Informacja dla badanego
+Cześć, jesteśmy studentkami kierunku Psychologia Zdrowia na GUMedzie i przeprowadzamy badanie dotyczące wydawania sądów i podejmowania decyzji. W każdym momencie trwania badania możesz zrezygnować z brania w nim udziału. Wyobraź sobie, że znajdujesz się w przedstawionej sytuacji i musisz wybrać jedno z dwóch rozwiązań. Gdybyś chciał(-a) dowiedzieć się o wynikach, które opracowane zostaną w maju lub w razie jakichkolwiek pytań – napisz do nas: kari24@onet.pl, ania_bollin@wp.pl.
+Dziękujemy za udział! :)

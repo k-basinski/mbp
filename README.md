@@ -31,7 +31,7 @@ Wszystkie materiały w jednym miejscu: [html](mbp_all.html) | [pdf](mbp_all.pdf)
 
 #### Wymogi edytorskie artykułu
 
-- Strona tytułowa: tytuł, autorzy, afiliacja (Gdański Uniwersytet Medyczny), abstrakt/streszczenie ( max. 250 słów)
+- Strona tytułowa (osobna strona): tytuł, autorzy, afiliacja (Gdański Uniwersytet Medyczny), abstrakt/streszczenie ( max. 250 słów), Słowa kluczowe (min.3, max.5)
 
 - Strona A4 pionowo
 - Marginesy: 2.5cm z każdej strony
@@ -41,13 +41,18 @@ Wszystkie materiały w jednym miejscu: [html](mbp_all.html) | [pdf](mbp_all.pdf)
 - Strony ponumerowane na dole po środku
 - Ryciny i tabele w tekście, nie na końcu
 - Ryciny ponumerowane, tabele ponumerowane
-- Nagłówki Times 14pt bold i ponumerowane
-
-- Bibliografia w standardzie APA. Zachęcam do używania managerów cytowań: Mendeley Desktop albo ZOTERO. 
-
+- Nagłówki: 
+	- 1st: Times 14pt bold
+	- 2st: Times 12pt italic
+- Stosowanie podziału tekstu na akapity jest fajne
+- Akapity zaczynają się od wcięcia (bez linii przerwy)
+- Bibliografia w standardzie APA6. Zachęcam do używania managerów cytowań: Mendeley Desktop albo ZOTERO. 
 - Format pliku - PDF
+- Cały artykuł nie powinien być dłuższy niż 15 stron maszynopisu
 
+Przykładowy manuskrypt: <https://psyarxiv.com/3n7kp/download> (uwaga, brakuje podpisu pod Figure 2!)
 
 
 ### Błędy
+
 Na pewno w wielu miejscach popełniłem jakieś błędy. Jeśli znajdziesz błąd, koniecznie daj mi znać. Najlepiej poprzez stworzenie `issue` na GitHubie albo od razu - `pull request` z proponowanymi zmianami.

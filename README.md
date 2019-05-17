@@ -41,9 +41,10 @@ Wszystkie materiały w jednym miejscu: [html](mbp_all.html) | [pdf](mbp_all.pdf)
 - Strony ponumerowane na dole po środku
 - Ryciny i tabele w tekście, nie na końcu
 - Ryciny ponumerowane, tabele ponumerowane
+- Numeracja linii 
 - Nagłówki: 
-	- 1st: Times 14pt bold
-	- 2st: Times 12pt italic
+	- 1st: Times 14pt bold (wyrównane do lewej)
+	- 2st: Times 12pt italic (wyrównane do lewej)
 - Stosowanie podziału tekstu na akapity jest fajne
 - Akapity zaczynają się od wcięcia (bez linii przerwy)
 - Bibliografia w standardzie APA6. Zachęcam do używania managerów cytowań: Mendeley Desktop albo ZOTERO. 

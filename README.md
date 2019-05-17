@@ -29,25 +29,24 @@ Wszystkie materiały w jednym miejscu: [html](mbp_all.html) | [pdf](mbp_all.pdf)
 - [Prezentacja o prezentacjach i języku](cw/z04DobrePrezentacje.pptx)
 
 
-#### Wzór protokołu:
+#### Wymogi edytorskie artykułu
 
-```
-# tytuł badania
+- Strona tytułowa: tytuł, autorzy, afiliacja (Gdański Uniwersytet Medyczny), abstrakt/streszczenie ( max. 250 słów)
 
-## autorzy
+- Strona A4 pionowo
+- Marginesy: 2.5cm z każdej strony
+- Interlinia: 1.5
+- Czcionka: Times New Roman 11pt
+- Wyrównanie do lewej
+- Strony ponumerowane na dole po środku
+- Ryciny i tabele w tekście, nie na końcu
+- Ryciny ponumerowane, tabele ponumerowane
+- Nagłówki Times 14pt bold i ponumerowane
 
-## notka bibliograficzna oryginalnego badania
+- Bibliografia w standardzie APA. Zachęcam do używania managerów cytowań: Mendeley Desktop albo ZOTERO. 
 
-Wagner, W., Roncat, A., Melzer, T., & Ullrich, A. (2007). Waveform analysis techniques in airborne laser scanning. International Archives of Photogrammetry and Remote Sensing, 36(3), 413-418.
+- Format pliku - PDF
 
-## cel badania
-
-## hipotezy
-
-## PROCEDURA BADANIA
-
-## Informacja dla badanego
-```
 
 
 ### Błędy

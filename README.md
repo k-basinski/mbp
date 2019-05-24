@@ -53,7 +53,7 @@ Wszystkie materiały w jednym miejscu: [html](mbp_all.html) | [pdf](mbp_all.pdf)
 
 Przykładowy manuskrypt: <https://psyarxiv.com/3n7kp/download> (uwaga, brakuje podpisu pod Figure 2!)
 
-
+[Ściąga ze statystyki](cw/sciaga_stata.html)
 ### Błędy
 
 Na pewno w wielu miejscach popełniłem jakieś błędy. Jeśli znajdziesz błąd, koniecznie daj mi znać. Najlepiej poprzez stworzenie `issue` na GitHubie albo od razu - `pull request` z proponowanymi zmianami.

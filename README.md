@@ -3,15 +3,14 @@
 
 ## Terminy zajęć
 
-Wykłady w semestrze zimowym odbywają się we wtorki o 13:15 w sali 202 na Tuwima.
+Wykłady w semestrze zimowym odbywają się we wtorki o 13:15 w różnych salach.
 
-Ćwiczenia w semestrze letnim odbywają się w piątki o godz. 8:00, 9:45 i 11:30 w różnych miejscach (sprawdzajcie proszę plan!)
 
 ## Wykłady
 
 Wykład | slajdy
 ------ | --------
-01 - Wstęp | [slajdy](w01_intro.html)
+01 - Wstęp | [slajdy](w01.html)
 02 - Hipotezy, zmienne i inne podstawowe pojęcia | [slajdy](w02.html)
 03 - Różnice pomiędzy grupami i korelacje | [slajdy](w03.html)
 04 - Eksperymenty | [slajdy](w04.html)
@@ -19,9 +18,9 @@ Wykład | slajdy
 06 - Etyka w badaniach | [slajdy](w06.html)
 07 - Komunikacja w nauce | [slajdy](w07.html)
 
-Wszystkie materiały w jednym miejscu: [html](mbp_all.html) | [pdf](mbp_all.pdf)
+<!-- Wszystkie materiały w jednym miejscu: [html](mbp_all.html) | [pdf](mbp_all.pdf) -->
 
-## Ćwiczenia
+<!-- ## Ćwiczenia
 
 - [Plany złożone](cw/plany_zlozone.html)
 - [Notatki z przygotowania danych do analizy](cw/wymogi_dane.html)
@@ -54,6 +53,8 @@ Wszystkie materiały w jednym miejscu: [html](mbp_all.html) | [pdf](mbp_all.pdf)
 Przykładowy manuskrypt: <https://psyarxiv.com/3n7kp/download> (uwaga, brakuje podpisu pod Figure 2!)
 
 [Ściąga ze statystyki](cw/sciaga_stata.html)
+ -->
+
 ### Błędy
 
 Na pewno w wielu miejscach popełniłem jakieś błędy. Jeśli znajdziesz błąd, koniecznie daj mi znać. Najlepiej poprzez stworzenie `issue` na GitHubie albo od razu - `pull request` z proponowanymi zmianami.

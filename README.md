@@ -1,5 +1,8 @@
 # Metodologia badań psychologicznych
 
+## Aktualności
+
+Uwaga! Z powodu ważnych obowiązków służbowych wykład 10.12 nie odbędzie się. Na odrabianie umowimy się na kolejnym wykładzie.
 
 ## Terminy zajęć
 

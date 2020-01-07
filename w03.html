@@ -11,10 +11,11 @@
   <link rel="stylesheet" href="reveal.js/css/reset.css">
   <link rel="stylesheet" href="reveal.js/css/reveal.css">
   <style>
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   </style>
   <link rel="stylesheet" href="reveal.js/css/theme/white.css" id="theme">
   <!-- Printing and PDF exports -->
@@ -89,14 +90,16 @@
 <h2>Czy mężczyźni są ciężsi niż kobiety?</h2>
 <p><code>{r echo=FALSE} ggplot(ppl, aes(Gender, Weight)) +   geom_boxplot()</code></p>
 </section>
-<section><section id="korelacje" class="title-slide slide level1"><h1>Korelacje</h1></section><section id="korelacja" class="slide level2">
+<section><section id="korelacje" class="title-slide slide level1"><h1>Korelacje</h1></section>
+<section id="korelacja" class="slide level2">
 <h2>Korelacja</h2>
 <ul>
 <li class="fragment">Siła związku między zmiennymi</li>
 <li class="fragment">Im silniejszy związek, tym dwie zmienne są bliżej zależności <strong>liniowej</strong></li>
 <li class="fragment">Związek najczęściej wyrazony współczynnikiem korelacji</li>
 </ul>
-</section><section id="współczynnik-korelacji" class="slide level2">
+</section>
+<section id="współczynnik-korelacji" class="slide level2">
 <h2>Współczynnik korelacji</h2>
 <ul>
 <li class="fragment">Technicznie kilka różnych, w praktyce podobna interpretacja</li>
@@ -104,13 +107,15 @@
 <li class="fragment">Wartości od -1 do 1, im wyższa wartość bezwzględna, tym silniejszy związek</li>
 <li class="fragment">Wsp. korelacji = 1 lub -1 - idealna zależność liniowa</li>
 </ul>
-</section><section id="korelacje-dodatnie-i-ujemne" class="slide level2">
+</section>
+<section id="korelacje-dodatnie-i-ujemne" class="slide level2">
 <h2>Korelacje dodatnie i ujemne</h2>
 <ul>
 <li class="fragment">Dodatni/pozytywny związek, r &gt; 0: wyższe wartości A wiążą się z wyższymi B</li>
 <li class="fragment">Ujemny/negatywny związek, r &lt; 0: wyższe wartości A wiążą się z niższymi B</li>
 </ul>
-</section><section id="waga-wiąże-się-ze-wzrostem-n100" class="slide level2">
+</section>
+<section id="waga-wiąże-się-ze-wzrostem-n100" class="slide level2">
 <h2>Waga wiąże się ze wzrostem? (N=100)</h2>
 <p>```{r echo=FALSE} ppl_100 &lt;- ppl %&gt;% slice(sample(1:10000, size = 100, replace = T))</p>
 <p>r_pears &lt;- cor(ppl_100<span class="math inline"><em>H</em><em>e</em><em>i</em><em>g</em><em>h</em><em>t</em>, <em>p</em><em>p</em><em>l</em><sub>100</sub></span>Weight)</p>
@@ -126,16 +131,20 @@ ppl %&gt;%
   ggplot(aes(Height, Weight)) +
   geom_point(alpha = 6/10) + 
   geom_smooth()</code></pre>
-</section><section id="waga-a-wzrost-n10000" class="slide level2">
+</section>
+<section id="waga-a-wzrost-n10000" class="slide level2">
 <h2>Waga a wzrost (N=10000)</h2>
 <p><code>{r echo=FALSE, warning=FALSE} ppl %&gt;% ggplot(aes(Height, Weight)) +   geom_point(alpha = 2/10)</code></p>
-</section><section id="waga-a-wzrost-n10000-1" class="slide level2">
+</section>
+<section id="waga-a-wzrost-n10000-1" class="slide level2">
 <h2>Waga a wzrost (N=10000)</h2>
 <p><code>{r echo=FALSE, warning=FALSE} ppl %&gt;% ggplot(aes(Height, Weight)) +   geom_point(alpha = 1/10) +    geom_smooth()</code></p>
-</section><section id="waga-wzrost-a-płeć" class="slide level2">
+</section>
+<section id="waga-wzrost-a-płeć" class="slide level2">
 <h2>Waga, wzrost a płeć?</h2>
 <p><code>{r echo=FALSE, warning=FALSE} ppl %&gt;% ggplot(aes(Height, Weight, colour = Gender)) +   geom_point(alpha = 1/10)</code></p>
-</section><section id="inne-przykłady" class="slide level2">
+</section>
+<section id="inne-przykłady" class="slide level2">
 <h2>Inne przykłady</h2>
 <p>```{r echo=FALSE, warning=FALSE}</p>
 <p>ppl_rand %&gt;% ggplot(aes(Weight, x2)) + geom_point()</p>
@@ -147,54 +156,69 @@ ppl %&gt;%
 ppl_rand %&gt;% ggplot(aes(Weight, x2)) + 
   geom_point() + 
   ggtitle(r_pearsons(ppl_rand$Weight, ppl_rand$x2))</code></pre>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <p><code>{r echo=FALSE, warning=FALSE} ppl_rand %&gt;% ggplot(aes(Weight, x3)) +    geom_point()</code></p>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <p><code>{r echo=FALSE, warning=FALSE} ppl_rand %&gt;% ggplot(aes(Weight, x3)) +    geom_point() +    ggtitle(r_pearsons(ppl_rand$Weight, ppl_rand$x3))</code></p>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <p><code>{r echo=FALSE, warning=FALSE} ppl_rand %&gt;% ggplot(aes(Weight, x4)) +    geom_point()</code></p>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <p><code>{r echo=FALSE, warning=FALSE} ppl_rand %&gt;% ggplot(aes(Weight, x4)) +    geom_point() +    ggtitle(r_pearsons(ppl_rand$Weight, ppl_rand$x4))</code></p>
-</section><section id="zagadka-kwartet-anscombea" class="slide level2">
+</section>
+<section id="zagadka-kwartet-anscombea" class="slide level2">
 <h2>Zagadka (kwartet Anscombe’a)</h2>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <p><code>{r echo=FALSE, warning=FALSE} anscombe %&gt;% ggplot(aes(x1, y1)) + geom_point()</code></p>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <p><code>{r echo=FALSE, warning=FALSE} anscombe %&gt;% ggplot(aes(x2, y2)) + geom_point()</code></p>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <p><code>{r echo=FALSE, warning=FALSE} anscombe %&gt;% ggplot(aes(x3, y3)) + geom_point()</code></p>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <p><code>{r echo=FALSE, warning=FALSE} anscombe %&gt;% ggplot(aes(x4, y4)) + geom_point()</code></p>
-</section><section id="r" class="slide level2">
+</section>
+<section id="r" class="slide level2">
 <h2>r = ?</h2>
-</section><section id="r-0.816-dla-wszystkich-zbiorów" class="slide level2">
+</section>
+<section id="r-0.816-dla-wszystkich-zbiorów" class="slide level2">
 <h2>r = 0.816 dla WSZYSTKICH zbiorów</h2>
-</section><section id="jak-to-jest-możliwe" class="slide level2">
+</section>
+<section id="jak-to-jest-możliwe" class="slide level2">
 <h2>Jak to jest możliwe?</h2>
 <ul>
 <li class="fragment">Współczynnik korelacji jest czuły na związki <strong>liniowe</strong></li>
 <li class="fragment">Zaburzenie liniowości powoduje “dziwne” efekty</li>
 <li class="fragment">Czy można powiedzieć że we wszystkich 4 przypadkach związek jest taki sam?</li>
 </ul>
-</section><section id="inne-dziwolągi-zaburzenie-liniowości" class="slide level2">
+</section>
+<section id="inne-dziwolągi-zaburzenie-liniowości" class="slide level2">
 <h2>Inne dziwolągi (zaburzenie liniowości)</h2>
 <figure>
 <img data-src="img/w02_0_corr.png" alt="" /><figcaption>r to zero!</figcaption>
 </figure>
-</section><section id="inne-dziwolągi-zaburzenie-liniowości-1" class="slide level2">
+</section>
+<section id="inne-dziwolągi-zaburzenie-liniowości-1" class="slide level2">
 <h2>Inne dziwolągi (zaburzenie liniowości)</h2>
 <figure>
 <img data-src="img/w02_0_corr_2.png" alt="" /><figcaption>tu też r zero!</figcaption>
 </figure>
-</section><section id="korelacja-a-przyczynowość" class="slide level2">
+</section>
+<section id="korelacja-a-przyczynowość" class="slide level2">
 <h2>Korelacja a przyczynowość</h2>
 <ul>
 <li class="fragment">Czy jeśli a koreluje z b to a <strong>spowodowało</strong> b?</li>
@@ -202,15 +226,18 @@ ppl_rand %&gt;% ggplot(aes(Weight, x2)) +
 <li class="fragment">…albo nie!</li>
 <li class="fragment">Tylko na podstawie faktu, że a koreluje z b nie możemy wyciągnąć wniosków przyczynowo-skutkowych</li>
 </ul>
-</section><section id="jakie-są-możliwości-przykłady-z-wikipedia.org" class="slide level2">
+</section>
+<section id="jakie-są-możliwości-przykłady-z-wikipedia.org" class="slide level2">
 <h2>Jakie są możliwości? (przykłady z wikipedia.org)</h2>
-</section><section id="a-powoduje-b" class="slide level2">
+</section>
+<section id="a-powoduje-b" class="slide level2">
 <h2>A powoduje B</h2>
 <ul>
 <li class="fragment">Wiek koreluje ze wzrostem u dzieci</li>
 <li class="fragment">Dziecko rośnie ponieważ się starzeje, a nie na odwrót</li>
 </ul>
-</section><section id="b-powoduje-a" class="slide level2">
+</section>
+<section id="b-powoduje-a" class="slide level2">
 <h2>B powoduje A</h2>
 <ul>
 <li class="fragment">Im szybciej kręcą się wiatraki, tym wiatr wieje szybciej…</li>
@@ -218,14 +245,16 @@ ppl_rand %&gt;% ggplot(aes(Weight, x2)) +
 <li class="fragment">…</li>
 <li class="fragment">…mamy dobre argumenty, żeby sądzić, że jest dokładnie na odwrót</li>
 </ul>
-</section><section id="b-powoduje-a-1" class="slide level2">
+</section>
+<section id="b-powoduje-a-1" class="slide level2">
 <h2>B powoduje A</h2>
 <ul>
 <li class="fragment">Jeśli w jakimś kraju zadłużenie osiągnie 90% PKB, następuje spowolnienie gospodarcze</li>
 <li class="fragment">…</li>
 <li class="fragment">… w rzeczywistości najprawdopodobniej spowolnienie gosp. powoduje wzrost zadłużenia</li>
 </ul>
-</section><section id="b-powoduje-a-2" class="slide level2">
+</section>
+<section id="b-powoduje-a-2" class="slide level2">
 <h2>B powoduje A</h2>
 <ul>
 <li class="fragment">Ludzie w średniowieczu wierzyli, że posiadanie wszy jest gwarancją życia w dobrym zdrowiu</li>
@@ -233,26 +262,30 @@ ppl_rand %&gt;% ggplot(aes(Weight, x2)) +
 <li class="fragment">???</li>
 <li class="fragment">Wszy okazują się być bardzo wrażliwe na temperaturę. Przy najmniejszym stanie podgorączkowym uciekają</li>
 </ul>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <ul>
 <li class="fragment">Spanie w butach jest silnie skorelowane z bólem głowy po przebudzeniu</li>
 <li class="fragment">?</li>
 </ul>
-</section><section id="trzeci-czynnik-c-powoduje-a-i-b" class="slide level2">
+</section>
+<section id="trzeci-czynnik-c-powoduje-a-i-b" class="slide level2">
 <h2>Trzeci czynnik C powoduje A i B</h2>
 <ul>
 <li class="fragment">Pijaństwo powoduje spanie w butach</li>
 <li class="fragment">Pijaństwo powoduje ból głowy po przebudzeniu</li>
 </ul>
-</section><section id="trzeci-czynnik-c-powoduje-a-i-b-1" class="slide level2">
+</section>
+<section id="trzeci-czynnik-c-powoduje-a-i-b-1" class="slide level2">
 <h2>Trzeci czynnik C powoduje A i B</h2>
 <ul>
 <li class="fragment">Spożycie lodów jest silnie dodatnio skorelowane z liczbą zgonów w wyniku utonięcia</li>
 <li class="fragment">?</li>
 <li class="fragment">Wzrost temperatury powoduje wzrost spożycia lodów. Wzrost temperatury powoduje, że więcej ludzi się kąpie i, w konsekwencji, więcej jest utonięć</li>
 </ul>
-</section><section id="trzeci-czynnik-c-powoduje-a-i-b-2" class="slide level2">
+</section>
+<section id="trzeci-czynnik-c-powoduje-a-i-b-2" class="slide level2">
 <h2>Trzeci czynnik C powoduje A i B</h2>
 <ul>
 <li class="fragment">Ilość “dobrego” cholesterolu (HDL) w organiźnimie jest negatywnie skorelowana z prawdopodobieństwem ataku serca</li>
@@ -260,14 +293,16 @@ ppl_rand %&gt;% ggplot(aes(Weight, x2)) +
 <li class="fragment">Niekoniecznie tak może być. Być może np. nawyki żywieniowe powodują jedno i drugie</li>
 <li class="fragment">Suplementowanie sie HDL niekoniecznie zmniejsza ryzyko zawału serca</li>
 </ul>
-</section><section id="a-powoduje-b-a-b-powoduje-a-zależności-cykliczne-sprzężenia-zwrotne" class="slide level2">
+</section>
+<section id="a-powoduje-b-a-b-powoduje-a-zależności-cykliczne-sprzężenia-zwrotne" class="slide level2">
 <h2>A powoduje B a B powoduje A (zależności cykliczne, sprzężenia zwrotne)</h2>
 <ul>
 <li class="fragment">Rowerzyści mają niższe BMI niż ludzie nie jeżdżący na rowerze</li>
 <li class="fragment">Czy jazda na rowerze obniża BMI?</li>
 <li class="fragment">Czy niskie BMI sprzyja jeżdżeniu na rowerze?</li>
 </ul>
-</section><section id="dodatnie-i-ujemne-sprzężenia-zwrotne-feedback-loops" class="slide level2">
+</section>
+<section id="dodatnie-i-ujemne-sprzężenia-zwrotne-feedback-loops" class="slide level2">
 <h2>Dodatnie i ujemne sprzężenia zwrotne (<em>feedback loops</em>)</h2>
 <ul>
 <li class="fragment">Dodatnie sprzężenie zwrotne:
@@ -279,7 +314,8 @@ ppl_rand %&gt;% ggplot(aes(Weight, x2)) +
 <li class="fragment">obie zmienne wzrastają</li>
 </ul></li>
 </ul>
-</section><section id="dodatnie-i-ujemne-sprzężenia-zwrotne-feedback-loops-1" class="slide level2">
+</section>
+<section id="dodatnie-i-ujemne-sprzężenia-zwrotne-feedback-loops-1" class="slide level2">
 <h2>Dodatnie i ujemne sprzężenia zwrotne (<em>feedback loops</em>)</h2>
 <ul>
 <li class="fragment">Ujemne sprzężenie zwrotne:
@@ -291,60 +327,71 @@ ppl_rand %&gt;% ggplot(aes(Weight, x2)) +
 <li class="fragment">obie zmienne maleją</li>
 </ul></li>
 </ul>
-</section><section id="sprzężenia-zwrotne" class="slide level2">
+</section>
+<section id="sprzężenia-zwrotne" class="slide level2">
 <h2>Sprzężenia zwrotne</h2>
 <ul>
 <li class="fragment">Depresja i ból</li>
 <li class="fragment">Fear avoidance model of chronic pain</li>
 <li class="fragment">Nieśmiałość i lek</li>
 </ul>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <ul>
 <li class="fragment">Wynik ostatniego domowego meczu Washington Redskins przed wyborami prezydenckimi w USA był wprost skorelowany z wynikiem wyborów (od 1936 do 2000)</li>
 <li class="fragment">Od 200 lat przywódcy Rosji/Związku Radzieckiego są na zmianę łysiejący i “włochaci”</li>
 </ul>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <figure>
 <img data-src="img/w02_russia.png" alt="" /><figcaption>Przywódcy Zwiazku Radzieckiego/Rosji</figcaption>
 </figure>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <figure>
 <img data-src="img/w02_spurious/chart-1.png" alt="" /><figcaption>Hm…</figcaption>
 </figure>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <figure>
 <img data-src="img/w02_spurious/chart-2.png" alt="" /><figcaption>Hm…</figcaption>
 </figure>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <figure>
 <img data-src="img/w02_spurious/chart-3.png" alt="" /><figcaption>Hm…</figcaption>
 </figure>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <figure>
 <img data-src="img/w02_spurious/chart-4.png" alt="" /><figcaption>Hm…</figcaption>
 </figure>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <figure>
 <img data-src="img/w02_spurious/chart-5.png" alt="" /><figcaption>Hm…</figcaption>
 </figure>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <figure>
 <img data-src="img/w02_spurious/chart-6.png" alt="" /><figcaption>Hm…</figcaption>
 </figure>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <figure>
 <img data-src="img/w02_spurious/chart-7.png" alt="" /><figcaption>Hm…</figcaption>
 </figure>
-</section><section id="dlaczego" class="slide level2">
+</section>
+<section id="dlaczego" class="slide level2">
 <h2>DLACZEGO?</h2>
 <ul>
 <li class="fragment">Bo tak wyszło</li>

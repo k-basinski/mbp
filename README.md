@@ -15,7 +15,7 @@ Wykład | slajdy
 ------ | --------
 01 - Wstęp | [slajdy](w01.html)
 02 - Hipotezy, zmienne i inne podstawowe pojęcia | [slajdy](w02.html)
-03 - Różnice pomiędzy grupami i korelacje | [slajdy](w03.html)
+03 - Różnice pomiędzy grupami i korelacje | [slajdy](w03_old.html)
 04 - Eksperymenty | [slajdy](w04.html)
 05 - Plany badawcze | [slajdy](w05.html)
 06 - Etyka w badaniach | [slajdy](w06.html)

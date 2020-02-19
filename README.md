@@ -2,7 +2,6 @@
 
 ## Aktualności
 
-Uwaga! Z powodu ważnych obowiązków służbowych wykład 10.12 nie odbędzie się. Na odrabianie umowimy się na kolejnym wykładzie.
 
 ## Terminy zajęć
 
@@ -23,15 +22,20 @@ Wykład | slajdy
 
 <!-- Wszystkie materiały w jednym miejscu: [html](mbp_all.html) | [pdf](mbp_all.pdf) -->
 
-<!-- ## Ćwiczenia
+## Ćwiczenia
 
-- [Plany złożone](cw/plany_zlozone.html)
+Zajęcia | slajdy
+------- | --------
+01 - Wstęp | [slajdy](cw01.html)
+
+
+<!-- - [Plany złożone](cw/plany_zlozone.html)
 - [Notatki z przygotowania danych do analizy](cw/wymogi_dane.html)
 - [Przykłady w xls](cw/przygotowanie_danych_przyklad/przyklady.zip)
 - [Prezentacja o prezentacjach i języku](cw/z04DobrePrezentacje.pptx)
+ -->
 
-
-#### Wymogi edytorskie artykułu
+<!--#### Wymogi edytorskie artykułu
 
 - Strona tytułowa (osobna strona): tytuł, autorzy, afiliacja (Gdański Uniwersytet Medyczny), abstrakt/streszczenie ( max. 250 słów), Słowa kluczowe (min.3, max.5)
 

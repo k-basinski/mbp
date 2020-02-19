@@ -5,7 +5,12 @@
 
 ## Terminy zajęć
 
-Wykłady w semestrze zimowym odbywają się we wtorki o 13:15 w różnych salach.
+Ćwiczenia w semestrze letnim odbywają się w piątki o:
+- 8:00 - 9:30
+- 9:45 - 11:15
+- 11:30 - 13:00
+
+w T108 albo B1_2.07 albo CMN/2/D/05b albo jeszcze gdzie indziej (sprawdzajcie plan!)
 
 
 ## Wykłady

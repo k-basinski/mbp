@@ -1,0 +1,252 @@
+---
+title: "Plany złożone"
+author: "Krzysztof Basiński"
+date: "4/11/2018"
+output: html_document
+---
+```{r include=FALSE}
+library(ggplot2)
+library(tidyverse)
+```
+
+> **UWAGA!** Jeśli ktoś z Was znalazł by przez przypadek jakiś błąd w tym dokumencie, niech da znać mailowo na <k.basinski@gumed.edu.pl>
+
+- Plan złożony jest wtedy, kiedy badamy wpływ więcej niż jednej zmiennej niezależnej (czynnika)
+- Na plan złożony składać się mogą warunki w planie grup niezależnych lub powtarzane pomiary (lub jedno i drugie)
+- Plany złożone pozwalają na określenie **efektu głównego** każdego czynnika
+- Pozwalają też na określenie efektu kilku czynników lub wszystkich czynników łącznie – **efekt interakcji**
+
+## Efekty proste, główne i interakcja
+
+- Efekt prosty to różnica w zmiennej zależnej pomiędzy poziomami jednego z czynników
+- Efekt główny to wpływ jednego z czynników niezależnie od drugiego
+- Interakcja jest wtedy, kiedy oba czynniki razem wpływają na zmienną zależną
+
+W planie 2x2 mamy (możliwe): 
+
+- cztery efekty proste
+- dwa efekty główne
+- jeden efekt interakcji
+
+
+## Przykłady 
+- Eksperyment w planie 2x2
+- Badamy wpływ poziomu pobudzenia emocjonalnego i trudności zadania na pamięć.
+- Zmienna zależna: pamięć (wynik testu pamięci)
+- Czynniki: poziom pobudzenia x trudność zadania
+
+#### Przykład 0
+
+```{r echo=FALSE}
+d <- tibble(
+#  zadanie = factor(c("trudne", "trudne", "proste", "proste")),
+  pobudzenie = factor(c("niskie", "srednie", "wysokie", "taki se")),
+  pamiec = c(2, 3, 4, 4.1),
+  lower = pamiec - 0.2,
+  upper = pamiec + 0.2
+)
+
+ggplot(d, aes(pobudzenie, pamiec)) +
+  geom_line() + 
+  geom_errorbar(aes(ymin = lower, ymax = upper), width = .2)
+
+```
+
+#### Przykład 1
+
+```{r echo=FALSE}
+d <- tibble(
+  zadanie = factor(c("trudne", "trudne", "proste", "proste")),
+  pobudzenie = factor(c("niskie", "wysokie", "niskie", "wysokie")),
+  pamiec = c(2, 4, 4, 9),
+  lower = pamiec - 0.2,
+  upper = pamiec + 0.2
+)
+ggplot(d, aes(pobudzenie, pamiec, color = zadanie)) +
+  geom_line(aes(group = zadanie)) + 
+  geom_errorbar(aes(ymin = lower, ymax = upper), width = .2)
+
+```
+
+Efekty proste: 
+
+  - Efekt prosty trudności zadania przy niskim pobudzeniu
+  - Efekt prosty trudności zadania przy wysokim pobudzeniu
+  - Efekt prosty pobudzenia przy trudnym zadaniu
+  - Efekt prosty pobudzenia przy prostym zadaniu
+  
+Efekty główne:
+
+  - Efekt główny trudności zdania
+  - Efekt głowny pobudzenia
+  
+Efekt interakcji:
+
+  - Istotny efekt interakcji
+
+
+
+#### Przykład 2
+
+```{r echo=FALSE}
+d <- tibble(
+  zadanie = factor(c("trudne", "trudne", "proste", "proste")),
+  pobudzenie = factor(c("niskie", "wysokie", "niskie", "wysokie")),
+  pamiec = c(3, 1, 5, 5),
+  lower = pamiec - 0.2,
+  upper = pamiec + 0.2
+)
+ggplot(d, aes(pobudzenie, pamiec, color = zadanie)) +
+  geom_line(aes(group = zadanie)) + 
+  geom_errorbar(aes(ymin = lower, ymax = upper), width = .2)
+
+```
+
+Efekty proste:
+
+- **Brak efektu prostego** pobudzenia w warunku prostego zadania
+- Efekt prosty pobudzenia w warunku trudnego zadania
+- Efekt prosty trudności zadania w warunku niskiego pobudzenia
+- Efekt prosty trudności zadania w warunku wysokiego pobudzenia
+
+Efekty główne:
+
+- Efekt główny pobudzenia
+- Efekt głowny trudności zadania
+
+Efekt interakcji:
+
+- Istotny efekt interakcji
+
+#### Przykład 3
+
+```{r echo=FALSE}
+d <- tibble(
+  zadanie = factor(c("trudne", "trudne", "proste", "proste")),
+  pobudzenie = factor(c("niskie", "wysokie", "niskie", "wysokie")),
+  pamiec = c(2, 2, 4, 4),
+  lower = pamiec - 0.2,
+  upper = pamiec + 0.2
+)
+ggplot(d, aes(pobudzenie, pamiec, color = zadanie)) +
+  geom_line(aes(group = zadanie)) + 
+  geom_errorbar(aes(ymin = lower, ymax = upper), width = .2)
+
+```
+
+Efekty proste:
+
+- **Brak efektu prostego** pobudzenia w warunku prostego zadania
+- **Brak efektu prostego** pobudzenia w warunku trudnego zadania
+- Efekt prosty trudności zadania w warunku niskiego pobudzenia
+- Efekt prosty trudności zadania w warunku wysokiego pobudzenia
+
+Efekty główne:
+
+- **Brak efektu głównego** pobudzenia
+- Efekt głowny trudności zadania
+
+Efekt interakcji:
+
+- **Brak efektu interakcji**
+
+#### Przykład 4
+
+```{r echo=FALSE}
+d <- tibble(
+  zadanie = factor(c("trudne", "trudne", "proste", "proste")),
+  pobudzenie = factor(c("niskie", "wysokie", "niskie", "wysokie")),
+  pamiec = c(2, 4, 5, 0),
+  lower = pamiec - 0.2,
+  upper = pamiec + 0.2
+)
+ggplot(d, aes(pobudzenie, pamiec, color = zadanie)) +
+  geom_line(aes(group = zadanie)) + 
+  geom_errorbar(aes(ymin = lower, ymax = upper), width = .2)
+
+```
+
+Efekty proste:
+
+- Efekt prosty pobudzenia w warunku prostego zadania
+- Efekt prosty pobudzenia w warunku trudnego zadania
+- Efekt prosty trudności zadania w warunku niskiego pobudzenia
+- Efekt prosty trudności zadania w warunku wysokiego pobudzenia
+
+Efekty główne:
+
+- Efekt główny pobudzenia
+- Efekt głowny trudności zadania (niewielka różnica, trzeba by przetestować!)
+
+Efekt interakcji:
+
+- Istotny efekt interakcji
+
+#### Przykład 5
+
+```{r echo=FALSE}
+d <- tibble(
+  zadanie = factor(c("trudne", "trudne", "proste", "proste")),
+  pobudzenie = factor(c("niskie", "wysokie", "niskie", "wysokie")),
+  pamiec = c(2, 4, 5, 7),
+  lower = pamiec - 0.2,
+  upper = pamiec + 0.2
+)
+ggplot(d, aes(pobudzenie, pamiec, color = zadanie)) +
+  geom_line(aes(group = zadanie)) + 
+  geom_errorbar(aes(ymin = lower, ymax = upper), width = .2)
+
+```
+
+Efekty proste:
+
+- Efekt prosty pobudzenia w warunku prostego zadania
+- Efekt prosty pobudzenia w warunku trudnego zadania
+- Efekt prosty trudności zadania w warunku niskiego pobudzenia
+- Efekt prosty trudności zadania w warunku wysokiego pobudzenia
+
+Efekty główne:
+
+- Efekt główny pobudzenia
+- Efekt głowny trudności zadania
+
+Efekt interakcji:
+
+- **Brak efektu interakcji**
+
+
+#### Przykład 6 (*)
+
+```{r echo=FALSE}
+d <- tibble(
+  zadanie = factor(c("trudne", "trudne", "proste", "proste")),
+  pobudzenie = factor(c("niskie", "wysokie", "niskie", "wysokie")),
+  pamiec = c(2, 6, 6, 2),
+  lower = pamiec - 0.2,
+  upper = pamiec + 0.2
+)
+ggplot(d, aes(pobudzenie, pamiec, color = zadanie)) +
+  geom_line(aes(group = zadanie)) + 
+  geom_errorbar(aes(ymin = lower, ymax = upper), width = .2)
+
+```
+
+Ten przykład jest szczególny. Tu **mamy istotną statystycznie interakcję**! Można to interpretować tak, że pomimo iż zmiana (∆) jest taka sama dla obu czynników, ma ona odwrotny charakter. Stąd mamy istotną statystycznie interakcję.
+
+
+### Przykład planu 2 x 3 (*)
+
+```{r echo=FALSE}
+d <- tibble(
+  zadanie = factor(c("trudne", "trudne", "proste", "proste", "trudne", "proste")),
+  pobudzenie = factor(c("niskie", "wysokie", "niskie", "wysokie", "średnie", "średnie")),
+  pamiec = c(5, 4, 1, 3, 4, 3),
+  lower = pamiec - 0.2,
+  upper = pamiec + 0.2
+)
+
+ggplot(d, aes(pobudzenie, pamiec, color = zadanie)) +
+  geom_line(aes(group = zadanie)) + 
+  geom_errorbar(aes(ymin = lower, ymax = upper), width = .2)
+```
+

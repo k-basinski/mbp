@@ -54,6 +54,11 @@ Zajęcia | slajdy
 ------- | --------
 01 - Wstęp | [slajdy](cw01.html)
 
+## Plany złożone
+
+- [Plany złożone, cz. 1](https://youtu.be/xmJX6D-dhJU), [notebook](cw/Wykresy_interakcje.ipynb)
+- [Plany złożone, cz. 2](https://youtu.be/vyWlrvJa3RI)
+- 
 
 <!-- - [Plany złożone](cw/plany_zlozone.html)
 - [Notatki z przygotowania danych do analizy](cw/wymogi_dane.html)

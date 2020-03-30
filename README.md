@@ -12,16 +12,23 @@ W związku z zamknięciem szkoły przechodzimy na e-learningowy tryb kształceni
 
 W kolejnym mailingu spodziewajcie się pierwszego zadania domowego.  Jeśli ktoś ma jakieś pytania, na wszystkie z chęcią odpowiem mailowo.
 
-## Zadanie 1
-Sformułujcie hipotezę swojego badania i opiszcie krótko, jak chcecie ją przetestować. Opis powinien zmieścić się w jednym/dwóch akapitach tekstu. Opis prześlijcie w treści maila.
+## Zadanie 3
+Wreszcie uporałem się ze zrobieniem filmów o planach złożonych, więc pora na zadanie 3. Tym razem jest to zadanie, które wykonacie INDYWIDUALNIE: 
 
-Uwaga! Piszcie w sposób prosty, zrozumiały i w języku polskim.  Zadbajcie o poprawność językową. Jeśli wyślecie tekst niezrozumiały/pełen błędów/niepoprawny stylistycznie - nie przyjmę go i będziecie musieli napisać jeszcze raz. 
+Proszę zapoznać się z materiałami odnośnie planów złożonych na stronie przedmiotu (screencasty i towarzyszące im PDFy, [Metodologia badań psychologicznych - YouTube](https://www.youtube.com/playlist?list=PLQooX7p8NEM5mb36QxK_6wLuLTB2gk75_) ). Jak już się zapoznasz, znajdź w bazach danych artykułów naukowych przykład badania eksperymentalnego, w którym mamy do czynienia z planem złożonym. Artykuł powinien być anglojęzyczny i dotyczyć psychologii lub być z pogranicza psychologii i innych nauk.  Prześlij do mnie na maila PDF tego artykułu z anotacjami: 
+- na żółto w tekście zaznacz opis planu eksperymentalnego, z którego wynika, że mamy do czynienia z planem złożonym i jakie są badane czynniki
+- na zielono w tekście zaznacz informacje o wynikach - czy znaleziono istotne statystycznie efekty główne i efekty interakcji
+- gdzieś na marginesie pierwszej strony umieść krótki opis planu badawczego - jakie czynniki, na ilu poziomach, jakie znaleziono efekty główne i interakcje. Opis ten może być po polsku lub po angielsku.
 
-Uwaga 2! Niech maila wyśle reprezentant grupy, ale niech w polu CC/DW umieści wszystkich członków grupy. Jeśli tego nie zrobicie, nie przyjmę rozwiązania.
+Mam nadzieję, że opisałem to w jasny sposób:) Jeśli byłyby jakieś pytania, piszcie maile.
 
-Termin: poniedziałek, 16 marca, godz. 9.00. 
+Termin: 6 kwietnia, poniedziałek, 9:00.
 
 
+## Plany złożone
+
+- [Plany złożone, cz. 1](https://youtu.be/xmJX6D-dhJU), [notebook](https://github.com/k-basinski/mbp/blob/master/cw/Wykresy_interakcje.ipynb)
+- [Plany złożone, cz. 2](https://youtu.be/vyWlrvJa3RI)
 
 
 <!-- ## Terminy zajęć
@@ -54,11 +61,7 @@ Zajęcia | slajdy
 ------- | --------
 01 - Wstęp | [slajdy](cw01.html)
 
-## Plany złożone
 
-- [Plany złożone, cz. 1](https://youtu.be/xmJX6D-dhJU), [notebook](cw/Wykresy_interakcje.ipynb)
-- [Plany złożone, cz. 2](https://youtu.be/vyWlrvJa3RI)
-- 
 
 <!-- - [Plany złożone](cw/plany_zlozone.html)
 - [Notatki z przygotowania danych do analizy](cw/wymogi_dane.html)

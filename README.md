@@ -29,6 +29,7 @@ Termin: 6 kwietnia, poniedziałek, 9:00.
 
 - [Plany złożone, cz. 1](https://youtu.be/xmJX6D-dhJU), [notebook](https://github.com/k-basinski/mbp/blob/master/cw/Wykresy_interakcje.ipynb)
 - [Plany złożone, cz. 2](https://youtu.be/vyWlrvJa3RI)
+- [Plany złożone, cz. 3](https://youtu.be/TeguHPd6tJc)
 
 
 <!-- ## Terminy zajęć

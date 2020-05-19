@@ -6,11 +6,46 @@ W związku z zamknięciem szkoły przechodzimy na e-learningowy tryb kształceni
 
 1. Odbierajcie maile z konta uczelnianego! Co najmniej raz dziennie od poniedziałku do piątku. Jeśli ktoś ma problem, niech zsynchronizuje sobie pocztę GUMed z jakąkolwiek inną pocztą, której używa. Albo jeszcze lepiej -  skonfigurujcie sobie pocztę GUMed w telefonie. Jeśli z kimś nie będzie sprawnego kontaktu mailowego, mogą go ominąć różne deadline-y na kolejne zadania i nie zaliczy przedmiotu.
 2. Używajmy Skype’a, FaceTime albo innych komunikatorów do rozmów bezpośrednich. Dotyczy to zarówno komunikacji ze mną jak i z kolegami/koleżankami z grupy. Jeśli nie musicie się spotykać osobiście, nie róbcie tego!
-3. Jeżeli na jakimkolwiek etapie tego kursu będziecie potrzebować konsultacji ze mną (do czego bardzo zachęcam!), są dwie drogi. Możecie po prostu napisać maila z pytaniami. Możecie też umówić się ze mną na konsultację na Skype. W tym celu piszecie maila z zapotrzebowaniem i umawiamy się na termin. Na Skype znajdziecie mnie pod k.basinski@gumed.edu.pl
+3. Jeżeli na jakimkolwiek etapie tego kursu będziecie potrzebować konsultacji ze mną (do czego bardzo zachęcam!), są dwie drogi. Możecie po prostu napisać maila z pytaniami. Możecie też umówić się ze mną na konsultację na Zoomie. W tym celu piszecie maila z zapotrzebowaniem i umawiamy się na termin. Wy organizujecie spotkanie i wysyłacie mi zaproszenie na k.basinski@gumed.edu.pl
 4. Spodziewajcie się prac domowych. Prace domowe będą miały terminy. Terminy są nieprzekraczalne, chyba że ktoś zachoruje. Będziecie mi wysyłać je mailem.  Chciałbym, żeby wysyłał je JEDEN REPREZENTANT GRUPY. Żeby wszystko było transparentne, chciałbym, żeby mail miał w polu CC/DW WSZYSTKICH POZOSTAŁYCH CZŁONKÓW GRUPY.
 5. Miejcie na uwadze, że nie pracuję w weekendy. Jeśli napiszecie coś w weekend, oczekujcie odpowiedzi w poniedziałek/wtorek.
 
-W kolejnym mailingu spodziewajcie się pierwszego zadania domowego.  Jeśli ktoś ma jakieś pytania, na wszystkie z chęcią odpowiem mailowo.
+## Artykuł
+
+Ostatnim krokiem Waszego projektu na metodologię jest napisanie artykułu. [Standardy APA PL](data/standardy_apa_pl.pdf) - pod tym linkiem znajdziecie opracowane przez zespół prof. Cieciucha standardy APA do zastosowania w polskich artykułach naukowych. Proszę się zapoznać z tymi standardami **w całości**. Będę oceniał stronę edytorską Waszego artykułu zgodnie z tymi standardami. Dodatkowo, w najbliższych dniach przygotuję dla was video z krótką opowieścią o tym, jak należy pisać artykuły naukowe. 
+
+Jeśli macie wątpliwości, pytania, nie wiecie co zrobić - zapraszam na konsultacje. Do końca semestru jestem dla Was dostępny w:
+
+- poniedziałki od 9.00 do 11.00
+- piątki od 9.00 do 13.00
+
+W każdym przypadku i zawsze proszę **najpierw** napisać maila, że chcecie się umówić na konsultacje i kiedy dokładnie. Jak już doprecyzujemy dokładną datę i godzinę - organizujecie spotkanie na zoomie i wysyłacie mi zaproszenie mailem.
+
+Do napisania artykułu możecie użyć jednej z dwóch technologii:
+
+1. "Normalny" edytor tekstu (np. MS Office, Libre Office, Apple Pages) + manager cytowań (np. Mendeley, Zotero). Wymogi edytorskie zgodne ze _Standardami_.
+2. Markdown/Pandoc/LaTeX/BibTeX (przyjmuję artykuły sformatowane przy pomocy domyślnego template'u Pandoc PDF).
+
+Ostateczny termin oddania artykułu to 8.06 (poniedziałek), godzina 9.00. Wtedy artykuł powinien znaleźć się **w formacie pdf** na moim mailu. Każdy dzień opóźnienia (liczony do godz. 9.00) będzie skutkował **5 punktami ujemnymi do oceny końcowej z przedmiotu**.
+
+
+
+
+
+
+## Zadanie 4
+
+Wszystko wskazuje na to, że z powodu Covid-19 nie uda Wam się zrealizować waszych projektów z metodologii w formie, którą planowaliście. Na ten moment nie wiadomo, czy uczelnia pozostanie zamknięta i czy obostrzenia odnośnie zachowywania kontaktów bedą utrzymane. Dlatego chciałbym, żeby każda z grup przygotowała plan przeprowadzenia swojego eksperymentu w formie “bezkontaktowej”. Dla niektórych nie będzie to stanowiło problemu, inne pomysły są niestety zupełnie nie do zrealizowania zdalnie z powodu specyficznych manipulacji eksperymentalnych. Możecie skorzystać z dowolnych narzędzi online, ale jest jedno, które chciałbym wam szczególnie polecić:
+
+[lab.js ·           A free, open, online study builder](https://lab.js.org)  - to narzędzie do tworzenia eksperymentów psychologicznych online. Zawiera w sobie zgrabny, graficzny interfejs, w którym można zaprojektować wiele różnych manipulacji.  Lab.js posiada też fajną dokumentację i introductory tutorial dostępny tutaj: [Get started building studies — lab.js 20.0.0 documentation](https://labjs.readthedocs.io/en/latest/learn/builder/index.html) . Dodatkowo, serwis  open-lab.online umożliwia hosting waszych badań za darmo. 
+
+Drobną wadą lab.js jest to, że sam osobiście nie mam z nim doświadczeń - do tej pory używałem połączenia PsychoPy i Pavlovia.org, jednak od niedawna Pavlovia zaczęła pobierać opłaty od swoich użytkowników. Nie mogę więc wam z czystym sumieniem jej zarekomendować. W tym momencie jestem sam na etapie “ogarniania” lab.js, mam nadzieję że w ciągu następnych kilku dni stworzę coś, co przypominać będzie tutorial pokazujący krok po kroku jak stworzyć eksperyment przy pomocy lab.js. 
+
+Alternatywnie, proste manipulacje eksperymentalne online jesteście w stanie wykonać za pomocą narzędzi do obsługi formularzy takich jak Google Forms albo innych. W tym celu możecie stworzyć kilka wersji jednego formularza i w ten sposób dokonywać manipulacji eksperymentalnych.
+
+Chciałbym, żeby każda grupa do przyszłego poniedziałku, tj. do 20.04 do 9.00 wysłała mi opis swojego badania w wersji “zdalnej”.  Chciałbym, żebyście szczegółowo opisali procedurę, ewentualnie spróbowali już stworzyć coś, co przypominałoby docelowe badanie. 
+
+Czasu jest niewiele - żebyśmy mogli spokojnie zrealizować projekt do końca semestru powinniście mieć wyniki w pierwszym tygodniu maja.
 
 ## Zadanie 3
 Wreszcie uporałem się ze zrobieniem filmów o planach złożonych, więc pora na zadanie 3. Tym razem jest to zadanie, które wykonacie INDYWIDUALNIE: 

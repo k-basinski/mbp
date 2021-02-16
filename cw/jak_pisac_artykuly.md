@@ -34,8 +34,35 @@ theme: white
 - Co już wiadomo?
 - Najczęściej na końcu stawiamy cel/hipotezę
 
+
 ### Wstęp - cechy szczególne
 
 - Dużo cytowań
 - Na wysokim poziomie abstrakcji (raczej unikamy technicznych szczegółów)
-- Powinien być 
+- Powinien prowadzić do postawienia celu/hipotez
+
+
+### Metody
+
+- Kogo zbadano? (Ile osób, kim były te osoby, jak ich zrekrutowano)
+- Jakimi metodami? (Jaki plan eksperymentalny? Jakie manipulacje?)
+- Opis procedury (co się działo z osobami badanymi od początku do końca)
+- Analiza statystyczna
+- Kwestie bioetyczne
+
+
+### Wyniki
+
+- "Suchy", syntetyczny opis tego co wyszło
+- Nie interpretujemy wyników
+- Miary tendencji centralnej i wariancji
+- Tabele i wykresy
+
+
+### Dyskusja
+
+- Co z wynika z wyników?
+- Jak wyniki mają się do literatury?
+- Jakie są wnioski?
+
+

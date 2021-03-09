@@ -9,6 +9,7 @@ Wykład | slajdy
 01 - Etyka, cz.1 | [slajdy](l01.html)
 02 - Etyka, cz.2 | [slajdy](l02.html)
 03 - Skale pomiarowe | [slajdy](l03.html)
+04 - Trafność i rzetelność | [slajdy](l04.html)
 
 
 <!-- 

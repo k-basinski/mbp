@@ -12,6 +12,10 @@ Wykład | slajdy
 04 - Trafność i rzetelność | [slajdy](l04.html)
 
 
+## Pomoce dodatkowe
+
+- [Korelacje](korelacje.ipynb)
+
 <!-- 
 02 - Hipotezy, zmienne i inne podstawowe pojęcia | [slajdy](w02.html)
 03 - Różnice pomiędzy grupami i korelacje | [slajdy](w03_old.html)

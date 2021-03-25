@@ -14,8 +14,8 @@ Wykład | slajdy
 
 ## Pomoce dodatkowe
 
-- [Korelacje](korelacje)
-- [Błąd losowy](blad_losowy)
+- [Korelacje](notebooks/korelacje)
+- [Błąd losowy](notebooks/blad_losowy)
 
 ## Literatura na Kolokwium 1 - 31.03.2021
 

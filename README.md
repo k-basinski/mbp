@@ -14,7 +14,16 @@ Wykład | slajdy
 
 ## Pomoce dodatkowe
 
-- [Korelacje](korelacje.ipynb)
+- [Korelacje](korelacje)
+- [Błąd losowy](blad_losowy)
+
+## Literatura na Kolokwium 1 - 31.03.2021
+
+- Treści omawiane na wykładach (do trafności i rzetelności włącznie)
+- Z podręcznika Shaughnessy, Zechmeister, Zechmeister:
+  - Rozdział 2, Etyka badań psychologicznych (cały)
+  - Rozdział 3, Obserwacja (str. 113-124)
+  - Rozdział 4, Badania korelacyjne (str. 150-160)
 
 <!-- 
 02 - Hipotezy, zmienne i inne podstawowe pojęcia | [slajdy](w02.html)
@@ -23,3 +32,4 @@ Wykład | slajdy
 05 - Plany badawcze | [slajdy](w05.html)
 06 - Etyka w badaniach | [slajdy](w06.html)
 07 - Komunikacja w nauce | [slajdy](w07.html) -->
+

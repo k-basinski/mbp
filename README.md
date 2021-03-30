@@ -10,6 +10,7 @@ Wykład | slajdy
 02 - Etyka, cz.2 | [slajdy](l02.html)
 03 - Skale pomiarowe | [slajdy](l03.html)
 04 - Trafność i rzetelność | [slajdy](l04.html)
+05 - Obserwacja | [slajdy](l05.html)
 
 
 ## Pomoce dodatkowe

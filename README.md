@@ -11,6 +11,8 @@ Wykład | slajdy
 03 - Skale pomiarowe | [slajdy](l03.html)
 04 - Trafność i rzetelność | [slajdy](l04.html)
 05 - Obserwacja | [slajdy](l05.html)
+06 - Porównania międzygrupowe i sondaże | [slajdy](l06.html)
+07 - Schematy korelacyjne | [slajdy](l07.html)
 
 
 ## Pomoce dodatkowe

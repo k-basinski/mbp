@@ -13,6 +13,8 @@ Wykład | slajdy
 05 - Obserwacja | [slajdy](l05.html)
 06 - Porównania międzygrupowe i sondaże | [slajdy](l06.html)
 07 - Schematy korelacyjne | [slajdy](l07.html)
+08 - Modele wielozmiennowe | [slajdy](l08.html)
+09 - Badania podłużne | [slajdy](l09.html)
 
 
 ## Pomoce dodatkowe

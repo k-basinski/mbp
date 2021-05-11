@@ -1,0 +1,83 @@
+---
+title: "Analizy wielozmiennowe"
+author: "Krzysztof Basiński"
+date: "2/9/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# include libraries
+library(tidyverse)
+
+
+# import data
+df <- read_csv("phd_data.csv")
+df
+```
+```{r}
+ggplot(df, aes(srh, depression)) +
+  geom_jitter()
+
+cor.test(df$depression, df$srh)
+```
+```{r}
+ggplot(df, aes(wiek, depression)) +
+  geom_jitter()
+
+cor.test(df$depression, df$wiek)
+
+ggplot(df, aes(wiek)) + geom_histogram()
+```
+
+
+```{r}
+dfm <- df %>% filter(bmi < 100)
+ggplot(dfm, aes(bmi, depression)) +
+  geom_jitter()
+
+cor.test(dfm$depression, dfm$bmi)
+
+```
+
+```{r}
+ggplot(df, aes(anxiety, depression)) +
+  geom_jitter()
+
+cor.test(df$depression, df$anxiety)
+```
+
+```{r}
+reg <- lm(depression ~ anxiety, data=df)
+summary(reg)
+```
+
+```{r}
+reg <- lm(depression ~ bmi, data=df)
+summary(reg)
+```
+
+```{r}
+reg <- lm(depression ~ srh, data=df)
+summary(reg)
+```
+
+```{r}
+reg <- lm(depression ~ srh + anxiety, data=df)
+summary(reg)
+```
+
+```{r}
+reg <- lm(depression ~ srh + anxiety + bmi, data=df)
+summary(reg)
+```
+
+
+```{r}
+reg <- lm(anxiety ~ depression, data=df)
+summary(reg)
+```
+

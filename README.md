@@ -18,6 +18,7 @@ Wykład | slajdy
 10 - Systematyczne przeglądy i metaanalizy | [slajdy](l09.html) [wykład](https://youtu.be/F75RV6q3Mdg)
 
 
+
 ## Pomoce dodatkowe
 
 - [Korelacje](notebooks/korelacje)

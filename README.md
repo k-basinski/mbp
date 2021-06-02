@@ -15,7 +15,7 @@ Wykład | slajdy
 07 - Schematy korelacyjne | [slajdy](l07.html)
 08 - Modele wielozmiennowe | [slajdy](l08.html)
 09 - Badania podłużne | [slajdy](l09.html)
-10 - Systematyczne przeglądy i metaanalizy | [slajdy](l09.html) [wykład](https://youtu.be/-wvB0fidNJ4)
+10 - Systematyczne przeglądy i metaanalizy | [slajdy](l09.html) [wykład](https://youtu.be/F75RV6q3Mdg)
 
 
 ## Pomoce dodatkowe
